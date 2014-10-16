@@ -8,6 +8,17 @@ def gray_unrank(n, r):
             T = T + [n - i]
         c = b
         r = r - (b * (2 ** i))
-    return T
+    print T
 
-print gray_unrank(3, 6)
+for rank in range(10):
+    gray_unrank(3, rank)
+# []
+# [3]
+# [2, 3]
+# [2]
+# [1, 2]
+# [1, 2, 3]
+# [1, 3]
+# [1]
+# [1, 2]
+# [1, 2, 3]
