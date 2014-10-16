@@ -7,8 +7,15 @@ def podzbior_unrank(n, r):
         r = r / 2
     print T
 
-podzbior_unrank(5, 1)
-podzbior_unrank(5, 2)
-podzbior_unrank(5, 3)
-podzbior_unrank(5, 4)
-podzbior_unrank(5, 5)
+for rank in range(10):
+    podzbior_unrank(5, rank)
+# []
+# [5]
+# [4]
+# [5, 4]
+# [3]
+# [5, 3]
+# [4, 3]
+# [5, 4, 3]
+# [2]
+# [5, 2]
