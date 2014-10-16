@@ -20,3 +20,13 @@ list_ciag = [
 
 for ciag in list_ciag:
     podzbior_rank(ciag, 5)
+# 28
+# 26
+# 24
+# 22
+# 20
+# 18
+# 14
+# 12
+# 10
+# 6
