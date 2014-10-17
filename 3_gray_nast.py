@@ -4,14 +4,33 @@ def gray_nast(n, T):
     T = set(T)
 
     if len(T) % 2 == 0:
-        U = T.symmetric_difference(set([n]))
+        U = T.symmetric_difference([n])
     else:
         j = n
         while j not in T:
             j = j - 1
             if j == 1:
-                return
-            U = T.symmetric_difference(set([j - 1]))
-    return U
+                return None
+            U = T.symmetric_difference([j - 1])
+    return list(U)
 
-print gray_nast(3, [1, 2])
+lists = [
+    [],
+    [3],
+    [2, 3],
+    [2],
+    [1, 2],
+    [1, 2, 3],
+    [1, 3],
+    [1]
+]
+for list_unrank in lists:
+    print gray_nast(3, list_unrank)
+# [3]
+# []
+# [2]
+# [1, 2]
+# [1, 2, 3]
+# []
+# [1]
+# None

@@ -10,7 +10,7 @@ def gray_unrank(n, r):
         r = r - (b * (2 ** i))
     print T
 
-for rank in range(10):
+for rank in range(8):
     gray_unrank(3, rank)
 # []
 # [3]
