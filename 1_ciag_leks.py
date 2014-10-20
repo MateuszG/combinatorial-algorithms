@@ -1,3 +1,5 @@
+"""Generowanie wszystkich ciagow zdanej dlugosci"""
+
 
 def ciag_leks(k, n):
     X = [1 for _ in range(k)]
