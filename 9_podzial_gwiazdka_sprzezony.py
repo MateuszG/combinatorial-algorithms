@@ -1,8 +1,8 @@
-def podzial_sprzezony(a):
-    b = [1 for _ in range(1, a[1])]
-    m = a[1]
+def podzial_sprzezony(c):
+    b = [1 for _ in range(1, c[1])]
+    m = c[1]
     for j in range(2, m):
-        for i in range(1, a[j]):
+        for i in range(1, c[j]):
             b[i] = b[i] + 1
     return b
 
