@@ -4,11 +4,10 @@ a = []
 def podzial(n, b, m):
     global a
     if a == []:
-        a = [0 for _ in range(1, min(b, n + 1))]
+        a = [0 for _ in range(1, min(b, n))]
     if n == 0:
         print a[1:-1]
     else:
-
         for i in range(1, min(b, n + 1)):
             a[m + 1] = i
             podzial(n - i, i, m + 1)
