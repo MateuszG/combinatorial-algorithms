@@ -8,7 +8,7 @@ def rgf_podzial(n, F):
 
     for j in range(1, n + 1):
         B[F[j]] = B[F[j]] + [j]
-    return B
+    return B[1:]  # Removed first dummp element
 
 
 values = [
