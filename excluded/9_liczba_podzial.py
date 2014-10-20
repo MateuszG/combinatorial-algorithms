@@ -31,3 +31,18 @@ pp.pprint(liczba_podzial(7, 4))
 #     [0, 1, 2, 2, 1, 0, 0],
 #     [0, 1, 3, 3, 2, 0, 0],
 #     [0, 1, 3, 4, 3, 0, 0]]
+
+def rekur(n, k):
+    if n < k:
+        return 0
+
+    if k == 0 and n == 0:
+        return 1
+
+    if k == 0 and n > 0:
+        return 0
+
+    return rekur(n - 1, k - 1) + rekur(n - k, k)
+
+print rekur(3, 5)
+print rekur(8, 5)
