@@ -24,6 +24,6 @@ def podzial_gwiazdka(n, b, m):
             podzial_gwiazdka(n - i, i, m + 1)
 
 podzial_gwiazdka(6, 6, 0)
-# [3, 2, 1]
-# [4, 2, 1]
-# [5, 1, 1]
+# [1]
+# [1]
+# []
