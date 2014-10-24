@@ -23,3 +23,4 @@ def generuj_rgf(n):
             koniec = True
 
 print generuj_rgf(4)
+# Not valid results
