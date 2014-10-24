@@ -3,6 +3,7 @@ Mateusz Galganek 150803
 
 """
 
+
 def unranga_pruffera(ranga, n):
     # tworze liste pruffera
     L = [0 for _ in range(n - 2)]
@@ -19,4 +20,4 @@ def unranga_pruffera(ranga, n):
     return L
 
 print unranga_pruffera(4204, 7)
-# Wynik [2, 6, 2, 6, 5]
+# [2, 6, 2, 6, 5]
