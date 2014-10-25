@@ -1,18 +1,24 @@
 def generuj_rgf(n):
-    F = [1 for _ in range(n + 1)]
-    f = [2 for _ in range(n + 1)]
+    f = [1 for _ in range(n)]
+    F = [2 for _ in range(n)]
     koniec = False
 
     while not koniec:
         print f
         j = n
+        while True:
+            # if j == 0:
+            #     break
 
-        while f[j] == F[j]:
             j = j - 1
-        if j > 1:
+
+            if f[j] != F[j]:
+                break
+
+        if j > 0:
             f[j] = f[j] + 1
 
-            for i in range(j + 1, n + 1):
+            for i in range(j + 1, n):
                 f[i] = 1
                 if f[j] == F[j]:
                     F[i] = F[j] + 1
@@ -22,5 +28,19 @@ def generuj_rgf(n):
         else:
             koniec = True
 
-print generuj_rgf(4)
-# Not valid results
+generuj_rgf(4)
+# [1, 1, 1, 1]
+# [1, 1, 1, 2]
+# [1, 1, 2, 1]
+# [1, 1, 2, 2]
+# [1, 1, 2, 3]
+# [1, 2, 1, 1]
+# [1, 2, 1, 2]
+# [1, 2, 1, 3]
+# [1, 2, 2, 1]
+# [1, 2, 2, 2]
+# [1, 2, 2, 3]
+# [1, 2, 3, 1]
+# [1, 2, 3, 2]
+# [1, 2, 3, 3]
+# [1, 2, 3, 4]
