@@ -6,10 +6,8 @@ def generuj_rgf(n):
     while not koniec:
         print f
         j = n
-        while True:
-            # if j == 0:
-            #     break
 
+        while True:
             j = j - 1
 
             if f[j] != F[j]:
@@ -20,6 +18,7 @@ def generuj_rgf(n):
 
             for i in range(j + 1, n):
                 f[i] = 1
+
                 if f[j] == F[j]:
                     F[i] = F[j] + 1
                 else:
