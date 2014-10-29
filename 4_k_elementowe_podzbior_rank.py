@@ -1,3 +1,10 @@
+"""
+Algorytm 8
+Wyznacza liczbę k-elementowych podzbiorów poprzdzających zadany zbiór T w
+uporządkowaniu leksykograficznym.
+"""
+
+
 def silnia(n):
     return n * silnia(n-1) if n > 1 else 1
 

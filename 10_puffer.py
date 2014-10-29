@@ -1,6 +1,21 @@
 """
-E wierzcholki
-n krawedzie
+Algorytm 23
+
+Aby wyznaczyć kod Prufera dla danego drzewa T na zbiorze wierzcholków
+{1, . . . , n}, należy:
+
+1. Znaleźć największy wierzchołek o stopniu 1, powiedzmy v.
+Niech w będzie wierzchołkiem połączonym z v.
+
+2. Zapisać w oraz usunać wierzchołek v wraz z krawędzia vw.
+
+3. Jeżeli w drzewie pozostala więcej niż jedna krawędź, to przejść
+do kroku 1; w przeciwnym razie zakończyć algorytm.
+
+Otrzymany ciąg liczb jest kodem Prufera dla drzewa T.
+
+E - wierzcholki
+n - krawedzie
 """
 
 

@@ -1,3 +1,13 @@
+"""
+Algorytm 7
+– znajdz pierwsza pozycje t[i] od prawej strony nie zawierajaca największego
+możliwego elementu
+– zwiększ t[i] o 1
+– przypisz elementom leżącym na prawo od t[i] kolejno elementy
+(t[i] + 1) + 1, (t[i] + 1) + 2, (t[i] + 1) + 3, . . . (t[i] + 1) + k − i
+"""
+
+
 def podzbior_nast(T, k, n):
     U = T
     i = k

@@ -1,3 +1,10 @@
+"""
+Algorytm 6
+Niech c odpowiada b[i+1] a b odpowiada b[i].
+Algorytm wyznacza sukcesywnie b[n−1] , . . . , b[0], które są bitami binarnej
+reprezentacji liczby r.
+"""
+
 
 def gray_unrank(n, r):
     T = []

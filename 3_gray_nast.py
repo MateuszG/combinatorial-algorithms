@@ -1,3 +1,14 @@
+"""
+Algorytm 4
+Rozpoczynamy od podzbioru pustego U
+– jeżeli liczba elementów podzbioru T jest parzysta, to bierzemy różnicę
+symetryczna podzbioru T i jedoelementowego zbioru złożonego z największego
+elementu, tj n.
+– gdy liczba elementów zbioru T jest nieparzysta,
+to jednoelementowym zbiorem jest {j}, gdzie j jest największym elementem
+należącym do T pomniejszonym o jeden.
+"""
+
 
 def gray_nast(n, T):
     U = []
