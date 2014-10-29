@@ -1,9 +1,9 @@
 """
 Algorytm 24 - Rekonstrukcja drzewa z kodu Prufera
 
-Dla zadanego ciągu liczb a[1] . . . a[n−2] wybranych
-w dowolny sposób ze zbioru {1, . . . , n}, aby wyznaczyć drzewo T ,
-dla którego ciąg ten jest jego kodem Prufera, należy:
+Dla zadanego ciągu liczb a[1] . . . a[n−2] wybranych w dowolny sposób ze zbioru
+{1, . . . , n}, aby wyznaczyć drzewo T, dla którego ciąg ten jest jego kodem
+Prufera, należy:
 
 1. Zapisać dwie listy, pierwsza a 1 . . . a n−2 oraz druga 1, 2, . . . , n
 i rozpoczać ze zbiorem wierzcholków {1, . . . , n} i pustym zbiorem
