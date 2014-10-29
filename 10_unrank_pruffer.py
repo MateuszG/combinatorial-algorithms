@@ -1,6 +1,5 @@
 """
-Mateusz Galganek 150803
-
+Algorytm 26
 """
 
 

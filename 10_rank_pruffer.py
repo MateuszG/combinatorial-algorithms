@@ -1,3 +1,8 @@
+"""
+Algorytm 25
+"""
+
+
 def ranga_pruffera(L):
     # dlugosc pruffera
     L_len = len(L) + 2
