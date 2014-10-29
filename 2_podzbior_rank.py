@@ -1,5 +1,6 @@
 """
 Algorytm 2
+
 Traktując charakterystyczne wektory jako binarną reprezentacje liczb
 całkowitych od 0 do 2^n − 1, rozpatrywane uporządkowanie leksykograficzne
 odpowiada zwyklemu uporządkowaniu liczb całkowitych. Pozycja podzbioru T jest

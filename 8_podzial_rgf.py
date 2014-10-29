@@ -1,6 +1,13 @@
 """
-Mateusz Galganek
-Podzial zbioru na k-bloki wyznaczyc funkcje RGF
+Algorytm 16
+Procedura wyznaczająca z zadanego podzialu zbioru {1, 2, . . . , n}
+na k bloków {B 1 , . . . , B[k]} odpowiadająca mu funkcje (f[1], . . . , f[n])
+RGF.
+
+Dla danego elementu j (zaczynamy od j = 1) szukamy numeru
+bloku zawierającego ten element (drugi while) a następnie wszystkim składowym z
+indeksami równymi elementom należącym do tego bloku nadajemy numer bloku
+(instrukcja for each).
 """
 
 

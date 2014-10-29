@@ -1,5 +1,6 @@
 """
 Algorytm 9
+
 - zaczynamy od zbioru pustego T
 - obliczamy silnie
 """

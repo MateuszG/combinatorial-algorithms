@@ -1,3 +1,12 @@
+"""
+Algorytm 17
+Pierwszy for wyznacza, na podstawie zadanej funkcji RGF, liczbe bloków w
+podziale odpowiadającym tej funkcji. Sprowadza się to do wyznaczenia
+największej składowej. W ostatniej pętli for wstawiane są do kolejnych bloków
+podzialu (które początkowo były zbiorami pustymi) stosowne elementy.
+"""
+
+
 def rgf_podzial(n, F):
     k = 1
     for j in range(1, n):

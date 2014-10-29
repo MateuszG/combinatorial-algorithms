@@ -1,7 +1,21 @@
 """
-Mateusz Galganek
-Algorytm iteracyjny generujacy wszystkie podzialy zbioru
-n-elementowego z elementem aktywnym
+Algorytm 15
+
+Wyznaczanie elementu aktywnego:
+– dysponujemy tablica boolowska PR określająca kierunek poruszania się danego
+elementu
+– początkowo mamy jedno-blokowy podzial {1, 2, . . . , n}
+– wszystkie warości tablicy PR maja przyporządkowana wartości true
+– zasada: po wygenerowaniu (i wypisaniu) kolejnego podzialu wyznaczamy ,,nowy”
+element aktywny zawsze poczynając analize od elementu największego
+– dany element jest przesuwany (tzn. jest aktywny) tylko wtedy, gdy wszystkie
+większe od niego elementy osiągneły swoje skrajne lewe lub prawe polożenie
+– element aktywny j* jest najmniejszym elementem, takim że
+dla każdego większego elementu j jest spełniony jeden z następujących dwóch
+warunków: PR[j] and B[j] = j tzn. element j porusza sie w prawo i osiągnął
+swoje skrajne prawe polożenie (j nie może być elementem bloku o numerze
+większym niż  j), lub not PR[j] and B[j] = 1 tzn. element j porusza sie w lewo
+i osiągnał swoje skrajne lewe polożenie, tj. znalazl się w bloku o numerze 1
 """
 
 

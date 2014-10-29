@@ -1,5 +1,6 @@
 """
 Algorytm 4
+
 Rozpoczynamy od podzbioru pustego U
 – jeżeli liczba elementów podzbioru T jest parzysta, to bierzemy różnicę
 symetryczna podzbioru T i jedoelementowego zbioru złożonego z największego

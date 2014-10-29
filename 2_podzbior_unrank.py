@@ -1,5 +1,6 @@
 """
 Algorytm 3
+
 Dla zadanej liczby całkowitej r, gdzie 0 ≤ r ≤ 2^n − 1, wyznaczenie podzbioru
 T mającego pozycje r w uporządkowaniu leksykograficznym, polega na badaniu
 reszt kolejnych wartości r pomniejszanych w każdym kroku o połowę.
