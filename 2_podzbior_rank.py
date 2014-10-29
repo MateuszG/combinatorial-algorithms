@@ -1,3 +1,12 @@
+"""
+Algorytm 2
+Traktując charakterystyczne wektory jako binarną reprezentacje liczb
+całkowitych od 0 do 2^n − 1, rozpatrywane uporządkowanie leksykograficzne
+odpowiada zwyklemu uporządkowaniu liczb całkowitych. Pozycja podzbioru T jest
+liczba całkowitą, której binarna reprezentacja jest X(T).
+"""
+
+
 def podzbior_rank(T, n):
     s = 0
     for i in range(1, n + 1):

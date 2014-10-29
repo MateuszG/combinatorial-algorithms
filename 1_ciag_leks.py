@@ -1,4 +1,16 @@
-"""Generowanie wszystkich ciagow zdanej dlugosci"""
+"""
+Algorytm 1
+Generuj w porządku leksykograficznym wszystkie ciągi długości k zbudowane
+z liczb od 1 do n.
+Pierwszym ciągiem jest (1, 1, . . . , 1) a ostatnim (n, n, . . . , n)
+Wektor X[1..k] zawiera ostatni wygenerowany ciąg
+Inicjujemy wektor X samymi jedynkami
+Algorytm:
+– szukamy w tablicy X, poruszając się od końca (tj. od strony prawej do lewej)
+wyrazu stojącego najbardziej na prawo, który jest mniejszy od n
+– zwiększamy go o jeden
+– wszystkie wyrazy na prawo od niego czynimy równe jeden
+"""
 
 
 def ciag_leks(k, n):
