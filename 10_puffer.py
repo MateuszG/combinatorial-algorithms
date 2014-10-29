@@ -50,7 +50,7 @@ def pruffer(n, E):
         E.remove([x, y])
     return L
 
-print pruffer(
+print (pruffer(
     7,
     [
         [1, 5],
@@ -60,5 +60,6 @@ print pruffer(
         [3, 2],
         [7, 2]
     ]
+    )
 )
 # [2, 6, 2, 6, 5]
