@@ -1,3 +1,8 @@
+"""
+Algorytm 14
+"""
+
+
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 

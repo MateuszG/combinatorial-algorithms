@@ -1,4 +1,6 @@
 """
+Algorytm ?
+
 Wyznaczenie liczby Bella wykorzystujac zaleznosci
 rekurencyjne
 
