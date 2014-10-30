@@ -1,4 +1,6 @@
 """
+Algorytm 19
+
 Standardowe podzialy liczb
 """
 
