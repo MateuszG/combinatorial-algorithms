@@ -21,7 +21,9 @@ def rgf_podzial(n, F):
 
     for j in range(1, n + 1):
         B[F[j]] = B[F[j]] + [j]
-    return B[1:]  # Removed first dummp element
+
+    B = [x for x in B if x != []]  # Remove empty lists in list
+    return B
 
 
 values = [
