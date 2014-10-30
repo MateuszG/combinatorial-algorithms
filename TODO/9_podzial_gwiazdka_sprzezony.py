@@ -1,3 +1,13 @@
+"""
+Algorytm 22
+Generowanie podziałów liczb n na k składników.
+Aby wygenerować wszystkie standardowe podziały liczby 'n' na 'k' składników
+wystarczy wygenerować podziały liczby 'n' o największym składniku 'k' i
+w każdym przypadku wyznaczyć podział sprzężony.
+b = k
+"""
+
+
 def podzial_sprzezony(c):
     b = [1 for _ in range(1, c[1])]
     m = c[1]

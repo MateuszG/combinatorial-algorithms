@@ -1,3 +1,10 @@
+"""
+Algorytm 21
+Generowanie wszystkich standardowych podziałów liczby n na k składników.
+b = k
+"""
+
+
 a = []
 
 

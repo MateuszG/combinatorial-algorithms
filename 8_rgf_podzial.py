@@ -1,9 +1,12 @@
 """
 Algorytm 17
-Pierwszy for wyznacza, na podstawie zadanej funkcji RGF, liczbe bloków w
+Procedura wyznaczająca z zadanej funkcji RGF(f[1] , . . . , f[n])
+odpowiadający jej podział zbioru {1, 2, . . . , n} na stosowna liczbe bloków.
+
+Pierwszy 'for' wyznacza, na podstawie zadanej funkcji RGF, liczbe bloków w
 podziale odpowiadającym tej funkcji. Sprowadza się to do wyznaczenia
-największej składowej. W ostatniej pętli for wstawiane są do kolejnych bloków
-podzialu (które początkowo były zbiorami pustymi) stosowne elementy.
+największej składowej. W ostatniej pętli 'for' wstawiane są do kolejnych bloków
+podziału (które początkowo były zbiorami pustymi) stosowne elementy.
 """
 
 
@@ -39,15 +42,23 @@ values = [
 ]
 
 for val in values:
-    print val,
+    print (val, end=' ')
     val.reverse()
     val.append([])
     val.reverse()
-    print rgf_podzial(4, val)
-# [1, 1, 1, 1] [[1, 2, 3, 4]]
-# [1, 1, 1, 0] [[1, 2, 3], [4]]
-# [1, 1, 0, 1] [[1, 2, 4], [3]]
-# [1, 1, 0, 0] [[1, 2], [3, 4]]
-# [1, 0, 1, 1] [[1, 3, 4], [2]]
-# [1, 1, 0, 0] [[1, 2], [3], [4]]
-# [1, 0, 0, 0] [[1], [2], [4], [3]]
+    print (rgf_podzial(4, val))
+# [1, 1, 1, 1] [[1, 2, 3, 4], []]
+# [1, 1, 1, 2] [[1, 2, 3], [4]]
+# [1, 1, 2, 1] [[1, 2, 4], [3], []]
+# [1, 1, 2, 2] [[1, 2], [3, 4], []]
+# [1, 1, 2, 3] [[1, 2], [3], [4]]
+# [1, 2, 1, 1] [[1, 3, 4], [2], []]
+# [1, 2, 1, 2] [[1, 3], [2, 4], []]
+# [1, 2, 1, 3] [[1, 3], [2], [4]]
+# [1, 2, 2, 1] [[1, 4], [2, 3], []]
+# [1, 2, 2, 2] [[1], [2, 3, 4], []]
+# [1, 2, 2, 3] [[1], [2, 3], [4]]
+# [1, 2, 3, 1] [[1, 4], [2], [3], []]
+# [1, 2, 3, 2] [[1], [2, 4], [3], []]
+# [1, 2, 3, 3] [[1], [2], [3, 4], []]
+# [1, 2, 3, 4] [[1], [2], [3], [4]]
