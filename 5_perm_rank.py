@@ -1,3 +1,8 @@
+"""
+Algorytm 11
+"""
+
+
 def silnia(n):
     return n * silnia(n-1) if n > 1 else 1
 
@@ -10,7 +15,7 @@ def perm_rank(n, T):
         for i in range(j + 1, n):
             if T[i] > T[j]:
                 T[i] = T[i] - 1
-    return r  # exclude one element at zero index
+    return r
 
 unranks = [
     [1, 2, 3],

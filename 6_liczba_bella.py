@@ -1,6 +1,8 @@
 """
 Wyznaczenie liczby Bella wykorzystujac zaleznosci
 rekurencyjne
+
+Liczba bella - Liczba wszystkich możliwych podziałów zbioru n-elementowego.
 """
 
 

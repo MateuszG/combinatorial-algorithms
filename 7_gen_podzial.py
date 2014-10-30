@@ -1,21 +1,45 @@
 """
 Algorytm 15
 
+każdy następny podziału powstaje z poprzedniego przez usunięcie pewnego
+elementu (zwanego dalej elementem aktywnym) z pewnego bloku (może to spowodować
+usunięcie bloku jednoelementowego) i dodanie go do innego bloku lub też
+utworzenie z niego bloku jednoelementowego
+
 Wyznaczanie elementu aktywnego:
 – dysponujemy tablica boolowska PR określająca kierunek poruszania się danego
 elementu
 – początkowo mamy jedno-blokowy podzial {1, 2, . . . , n}
-– wszystkie warości tablicy PR maja przyporządkowana wartości true
+– wszystkie warości tablicy PR maja przyporządkowana wartości 'true'
 – zasada: po wygenerowaniu (i wypisaniu) kolejnego podzialu wyznaczamy ,,nowy”
 element aktywny zawsze poczynając analize od elementu największego
 – dany element jest przesuwany (tzn. jest aktywny) tylko wtedy, gdy wszystkie
 większe od niego elementy osiągneły swoje skrajne lewe lub prawe polożenie
-– element aktywny j* jest najmniejszym elementem, takim że
-dla każdego większego elementu j jest spełniony jeden z następujących dwóch
-warunków: PR[j] and B[j] = j tzn. element j porusza sie w prawo i osiągnął
-swoje skrajne prawe polożenie (j nie może być elementem bloku o numerze
-większym niż  j), lub not PR[j] and B[j] = 1 tzn. element j porusza sie w lewo
-i osiągnał swoje skrajne lewe polożenie, tj. znalazl się w bloku o numerze 1
+– element aktywny 'j*' jest najmniejszym elementem, takim że dla każdego
+większego elementu 'j' jest spełniony jeden z następujących dwóch warunków:
+PR[j] and B[j] = j tzn. element 'j' porusza sie w prawo i osiągnął
+swoje skrajne prawe polożenie ('j' nie może być elementem bloku o numerze
+większym niż  'j'), lub not PR[j] and B[j] = 1 tzn. element 'j' porusza się w
+lewo i osiągnał swoje skrajne lewe położenie, tj. znalazł się w bloku o numerze
+1.
+
+Z wykładu:
+N[i] - numer nastepnego bloku dla bloku o numerze 'i'
+P[i] - numer poprzedniego bloku o numerze podziału 'i'.
+B[i] - numer bloku zawierającego element 'i'.
+PR[j] - kierunek poruszania się elementu aktywnego.
+PR[j] gdy True to 'j' porusza się w prawo, gdy False 'j' porusza się w lewo.
+
+element aktywny - tek który porusza się w prawo lub lewo
+numer bloku - bedzie najmnieszym elmentem w tym bloku (numeracja w bloku jest
+rosnąca)
+
+1) Zdefiniuj tablice
+2) Przenieś element aktywny do sąsiedniego bloku:
+- następnego, jeżeli 'j' porusza się w prawo, w tym przypadku może zajść
+utworzenie nowego bloku.
+- poprzedniego jeżeli 'j' porusza się w lewo.
+3) Wyznacz element aktwyny w nowym podziale.
 """
 
 

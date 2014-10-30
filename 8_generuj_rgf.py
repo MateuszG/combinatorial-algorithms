@@ -1,15 +1,18 @@
 """
 Algorytm 18
+
 Idea algorytmu polega na znalezieniu pierwszej pozycji z prawej
 strony tablicy f, dla której f[j]= ̸= F[j]. Wówczas wartość elementu f[j]
 zostaje zwiększona o jeden a wszystkie elementy leżące na prawo od niego
-czynimy równe jeden, uaktualniając jednocześnie tablice F. Uaktualnienie to
-polega na tym, że jeżeli nowa wartość f[j] jest równa wartości F[j], to
-wszystkie elementy tablicy F leżące na prawo przyjmują wartość F[j] + 1,
-a w przeciwnym razie przyjmują one wartość F[j]. Proces ten kontynujemy dopóty,
-dopóki nie będzie spełniony warunek f[j] = F[j] dla wszystkich j, takich że
-2 ≤ j ≤ n. To odpowiada ostatniej wygenerowanej funkcji FRG, która ma postać
-(1, 2, . . . , n).
+czynimy równe jeden, uaktualniając jednocześnie tablice F.
+
+Uaktualnienie to polega na tym, że jeżeli nowa wartość f[j] jest równa wartości
+F[j], to wszystkie elementy tablicy F leżące na prawo przyjmują wartość
+F[j] + 1, a w przeciwnym razie przyjmują one wartość F[j].
+
+Proces ten kontynujemy dopóty, dopóki nie będzie spełniony warunek f[j] = F[j]
+dla wszystkich j, takich że 2 ≤ j ≤ n. To odpowiada ostatniej wygenerowanej
+funkcji FRG, która ma postać (1, 2, . . . , n).
 """
 
 

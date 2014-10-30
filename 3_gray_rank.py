@@ -2,8 +2,8 @@
 Algorytm 5
 
 Iteracyjnie uaktualniamy wartość b mając na uwadzę
-– czy a[i] = 1 (zachodzi je ̇zeli n − i in T)
-– czy a[i] = 0 (zachodzi je ̇zeli n − i not in T)
+– czy a[i] = 1 (zachodzi jeżeli n − i in T)
+– czy a[i] = 0 (zachodzi jeżeli n − i not in T)
 Jeżeli b = 1, to dodajemy do r wartość 2^i , gdyż b = b[i] jest
 wartością i-tego bitu w binarnej reprezentacji r.
 """
