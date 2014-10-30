@@ -28,7 +28,7 @@ def not_in(j, h, B):
     return b
 
 
-def podzial_rgf(n, k, B):
+def podzial_rgf(n, B):
     F = [0 for _ in range(n + 1)]
     j = 1
     k = len(B)
@@ -44,7 +44,7 @@ def podzial_rgf(n, k, B):
         for i, g in enumerate(B[h]):
             F[g] = h
 
-    return F
+    return F[1:]  # Exclude first element
 
 values = [
     [[1, 2, 3, 4]],
@@ -68,7 +68,7 @@ for val in values:
     val.reverse()
     val.append([])
     val.reverse()
-    print (podzial_rgf(4, 4, val), end=' ')
+    print (podzial_rgf(4, val), end=' ')
     print (val[1:])
 # [0, 1, 1, 1, 1] [[1, 2, 3, 4]]
 # [0, 1, 1, 1, 2] [[1, 2, 3], [4]]
