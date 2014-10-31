@@ -29,7 +29,7 @@ def add(m):
 
 
 def podzial_sprzezony(a):
-    """Algorytm 20"""
+    """Algorytm 20 i część 22"""
     a = [[]] + a
     b = [1 for _ in range(a[1] + 1)]
 
@@ -43,6 +43,7 @@ a = []
 
 
 def podzial_gwiazdka(n, b, m):
+    """Algorytm 22"""
     if n == 0:
         print (a[1:], podzial_sprzezony(a[1:]))
         remove()
