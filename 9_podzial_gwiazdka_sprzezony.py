@@ -30,14 +30,13 @@ def add(m):
 
 def podzial_sprzezony(a):
     """Algorytm 20"""
-    b = [1 for _ in range(a[0])]
-    m = a[0]
-    for j in range(1, len(a)):
-        print ('b')
-        for i in range(0, a[j]):
-            print ('a')
+    a = [[]] + a
+    b = [1 for _ in range(a[1] + 1)]
+
+    for j in range(2, len(a)):
+        for i in range(1, a[j] + 1):
             b[i] = b[i] + 1
-    return b
+    return b[1:]
 
 
 a = []
@@ -53,7 +52,9 @@ def podzial_gwiazdka(n, b, m):
             a[m + 1] = i
             podzial_gwiazdka(n - i, i, m + 1)
 
-podzial_gwiazdka(6, 6, 0)
-# [3, 2, 1] [1, 1, 1]
-# [4, 2] [1, 1, 1, 1]
-# [5, 1] [1, 1, 1, 1, 1]
+podzial_gwiazdka(7, 7, 0)
+# Podziały liczby, podziały sprzężone
+# [4, 2, 1] [3, 2, 1, 1]
+# [4, 3] [2, 2, 2, 1]
+# [5, 2] [2, 2, 1, 1, 1]
+# [6, 1] [2, 1, 1, 1, 1, 1]
