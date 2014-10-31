@@ -14,7 +14,7 @@ b = k
 
 
 def remove():
-    """  """
+    """Usuwanie zbednych elementow (jedynek)"""
     koniec = True
     while koniec:
         while 1 in a:
@@ -31,10 +31,11 @@ def add(m):
 def podzial_sprzezony(a):
     """Algorytm 20"""
     b = [1 for _ in range(a[0])]
-    m = a[1]
-    for j in range(2, m):
-        print ('a', a, j)
-        for i in range(1, a[j]):
+    m = a[0]
+    for j in range(1, len(a)):
+        print ('b')
+        for i in range(0, a[j]):
+            print ('a')
             b[i] = b[i] + 1
     return b
 
