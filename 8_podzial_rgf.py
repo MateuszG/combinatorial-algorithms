@@ -7,8 +7,8 @@ na 'k' bloków {B[1] , . . . , B[k]} odpowiadająca mu funkcje
 (f[1], . . . , f[n]) RGF.
 
 Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru
-bloku zawierającego ten element (drugi while) a następnie wszystkim składowym z
-indeksami równymi elementom należącym do tego bloku nadajemy numer bloku
+bloku zawierającego ten element (drugi while), a następnie wszystkim składowym
+z indeksami równymi elementom należącym do tego bloku nadajemy numer bloku
 (instrukcja for each).
 
 Czyność tę powtarzamy 'k' razy biorąc pod uwage kolejny element 'j' zbioru,
@@ -20,7 +20,6 @@ wyzerowane.
 
 def not_in(j, h, B):
     b = False
-    # import ipdb; ipdb.set_trace()
 
     for i, _ in enumerate(B[h]):
         if B[h][i] == j:

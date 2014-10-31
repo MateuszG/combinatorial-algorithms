@@ -1,5 +1,5 @@
 """
-Algorytm 22
+Algorytm 20 i Algorytm 22
 Generowanie podziałów liczb n na k składników.
 Aby wygenerować wszystkie standardowe podziały liczby 'n' na 'k' składników
 wystarczy wygenerować podziały liczby 'n' o największym składniku 'k' i
@@ -23,11 +23,13 @@ def add(m):
         a.append(0)
 
 
-def podzial_sprzezony(c):
-    b = [1 for _ in range(1, c[1])]
-    m = c[1]
+def podzial_sprzezony(a):
+    """Algorytm 20"""
+    b = [1 for _ in range(a[0])]
+    m = a[1]
     for j in range(2, m):
-        for i in range(1, c[j]):
+        print ('a', a, j)
+        for i in range(1, a[j]):
             b[i] = b[i] + 1
     return b
 
@@ -37,7 +39,7 @@ a = []
 
 def podzial_gwiazdka(n, b, m):
     if n == 0:
-        print (a[1:])
+        print (a[1:], podzial_sprzezony(a[1:]))
         remove()
     else:
         for i in range(1, min(b, n + 1)):
@@ -46,6 +48,6 @@ def podzial_gwiazdka(n, b, m):
             podzial_gwiazdka(n - i, i, m + 1)
 
 podzial_gwiazdka(6, 6, 0)
-# [3, 2, 1]
-# [4, 2]
-# [5, 1]
+# [3, 2, 1] [1, 1, 1]
+# [4, 2] [1, 1]
+# [5, 1] [1, 1]
