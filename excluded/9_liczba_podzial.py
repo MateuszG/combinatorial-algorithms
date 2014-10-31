@@ -2,6 +2,12 @@
 Algorytm 19
 
 Standardowe podzialy liczb
+Nieuporządkowanym (standardowym) podziałem liczby 'n' na 'k' dodatnich
+skladników nazywamy każde przedstawienie liczby 'n' w postaci sumy
+n = a[1] + a[2] + ... + a[k] gdzie a[1] ≥ a[2] ≥ ... ≥ a[k] ≥ 1
+
+Konstrukcja algorytmu generującego wszystkie podziały standardowe dla zadanych
+parametrów 'n' i 'k'
 """
 
 
