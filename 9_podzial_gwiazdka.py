@@ -1,6 +1,15 @@
 """
 Algorytm 22 - Podzial gwiazdka - Generowanie podziałów liczb n na k składników.
 
+Trzy podzialy liczby 7, w których największym składnikiem jest 4:
+4+1+1+1
+4+2+1
+4+3
+Odpowiadającymi im podziałami sprzężonymi są:
+4+1+1+1
+3+2+1+1
+2+2+2+1
+
 b = k
 """
 
@@ -45,7 +54,6 @@ def podzial_gwiazdka(n, b, m):
             podzial_gwiazdka(n - i, i, m + 1)
 
 podzial_gwiazdka(7, 7, 0)
-# Podziały liczby, podziały sprzężone
 # [1, 1, 1, 1, 1, 1, 1] [7]
 # [2, 1, 1, 1, 1, 1] [6, 1]
 # [2, 2, 1, 1, 1] [5, 2]

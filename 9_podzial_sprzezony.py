@@ -4,8 +4,18 @@ Aby wygenerować wszystkie standardowe podziały liczby 'n' na 'k' składników
 wystarczy wygenerować podziały liczby 'n' o największym składniku 'k' i
 w każdym przypadku wyznaczyć podział sprzężony.
 
-Procedura, któora dla danego podziału (a[1], a[2], . . . , a[m]) wyznacza
+Procedura, która dla danego podziału (a[1], a[2], . . . , a[m]) wyznacza
 podział do niego sprzężony.
+
+Podziały sprzeżone:
+– liczba skladników w pierwszym podziale odpowiada największemu składnikowi w
+drugim podziale.
+– największy składnik w pierwszym podziale odpowiada liczbie skladników w
+drugim podziale.
+– jeżeli k ≤ n jest dodatnia liczba całkowita, to operacja sprzężenia jest
+bijekcja ze zbioru podzialów liczby 'n' na 'k' składników na zbiór podzialów
+liczby 'n' (na dowolna liczbę skladników), w których największym składnikiem
+jest 'k'.
 
 b = k
 """
@@ -39,19 +49,19 @@ podzialy = [
     [7]
 ]
 for podzial in podzialy:
-    print (podzial_sprzezony(podzial))
-# [7]
-# [6, 1]
-# [5, 2]
-# [4, 3]
-# [5, 1, 1]
-# [4, 2, 1]
-# [3, 3, 1]
-# [3, 2, 2]
-# [4, 1, 1, 1]
-# [3, 2, 1, 1]
-# [2, 2, 2, 1]
-# [3, 1, 1, 1, 1]
-# [2, 2, 1, 1, 1]
-# [2, 1, 1, 1, 1, 1]
-# [1, 1, 1, 1, 1, 1, 1]
+    print (podzial, podzial_sprzezony(podzial))
+# [1, 1, 1, 1, 1, 1, 1] [7]
+# [2, 1, 1, 1, 1, 1] [6, 1]
+# [2, 2, 1, 1, 1] [5, 2]
+# [2, 2, 2, 1] [4, 3]
+# [3, 1, 1, 1, 1] [5, 1, 1]
+# [3, 2, 1, 1] [4, 2, 1]
+# [3, 2, 2] [3, 3, 1]
+# [3, 3, 1] [3, 2, 2]
+# [4, 1, 1, 1] [4, 1, 1, 1]
+# [4, 2, 1] [3, 2, 1, 1]
+# [4, 3] [2, 2, 2, 1]
+# [5, 1, 1] [3, 1, 1, 1, 1]
+# [5, 2] [2, 2, 1, 1, 1]
+# [6, 1] [2, 1, 1, 1, 1, 1]
+# [7] [1, 1, 1, 1, 1, 1, 1]

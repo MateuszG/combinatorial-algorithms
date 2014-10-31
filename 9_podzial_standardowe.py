@@ -2,6 +2,12 @@
 Algorytm 21
 
 Generowanie wszystkich standardowych podziałów liczby n na k składników.
+
+– a[1] , a[2] , . . . , a[m] są już wybranymi składnikami podziału
+– parametr b jest górnym ograniczeniem wartości następnego generowanego
+składnika
+– a[m+1] może przyjąc wartości od 1 do b
+
 b = k
 """
 
