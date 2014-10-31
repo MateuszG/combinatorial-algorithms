@@ -1,9 +1,14 @@
 """
-Algorytm 20 i Algorytm 22
-Generowanie podziałów liczb n na k składników.
+Algorytm 22 - Podzial gwiazdka - Generowanie podziałów liczb n na k składników.
+
+Algorytm 20 - Podzial sprzężony
 Aby wygenerować wszystkie standardowe podziały liczby 'n' na 'k' składników
 wystarczy wygenerować podziały liczby 'n' o największym składniku 'k' i
 w każdym przypadku wyznaczyć podział sprzężony.
+
+Procedura, któora dla danego podziału (a[1], a[2], . . . , a[m]) wyznacza
+podział do niego sprzężony.
+
 b = k
 """
 
