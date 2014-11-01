@@ -3,12 +3,14 @@ Algorytm 10
 
 Dla zadanej permutacji algorytm wyznacza jej
 bezpośredniego "następnika" w uporządkowaniu leksykograficznym
-– wyznacz indeks 'i'
-- Jeżeli i == 0, to brak następnika
-- następnie wyznacz indeks 'j' najmiejszego elementu, który jest większy od
-T[i]
-- przypisz p[h] = T[h]
-- odwróć podlistę
+
+Algorytm:
+1) Wyznacz indeks 'i'.
+2) Jeżeli i == 0, to brak następnika.
+3) Następnie wyznacz indeks 'j' najmiejszego elementu, który jest większy od
+T[i].
+4) Przypisz p[h] = T[h].
+5) Odwróć podlistę.
 """
 
 

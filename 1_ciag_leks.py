@@ -8,10 +8,10 @@ Wektor X[1..k] zawiera ostatni wygenerowany ciąg.
 Inicjujemy wektor 'X' samymi jedynkami.
 
 Algorytm:
-– szukamy w tablicy 'X', poruszając się od końca (tj. od strony prawej do
+1) szukamy w tablicy 'X', poruszając się od końca (tj. od strony prawej do
 lewej) wyrazu stojącego najbardziej na prawo, który jest mniejszy od 'n'
-– zwiększamy go o jeden
-– wszystkie wyrazy na prawo od niego czynimy równe jeden
+2) zwiększamy go o jeden
+3) wszystkie wyrazy na prawo od niego czynimy równe jeden
 """
 
 

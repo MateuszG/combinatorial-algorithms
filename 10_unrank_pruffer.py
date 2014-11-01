@@ -1,22 +1,22 @@
 """
 Algorytm 26
+
+Algorytm:
+1) Tworzymy liste 'L' od końca, przypisując do niej wartość mod(r,n) + 1.
+2) Zmieniejszamy wartość rangi o L[i] + 1.
+3) Rangę następnie dzielimy przez 'n'.
+4) Iterujemy dalej (1), lub wypisujemy kod pruffera 'L'.
 """
 
 
-def unranga_pruffera(ranga, n):
-    # tworze liste pruffera
+def unranga_pruffera(r, n):
     L = [0 for _ in range(n - 2)]
 
-    # petla dzialajaca na kodzie pruffera
     for i in reversed(range(n - 2)):
-        # dziele range i przypisanie do kodu
-        L[i] = ranga % n + 1
-        roznica = ranga - L[i]
-
-        # dzielenie rangi + 1 przez wierzcholki
-        ranga = (roznica + 1) // n
+        L[i] = r % n + 1
+        r = (r - L[i] + 1) // n
 
     return L
 
-print unranga_pruffera(4204, 7)
+print (unranga_pruffera(4204, 7))
 # [2, 6, 2, 6, 5]

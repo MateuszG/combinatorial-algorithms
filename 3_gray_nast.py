@@ -10,11 +10,11 @@ elementu (liczba elementów w kolejno generowanych podzbiorach będzie na
 przemian parzysta i nieparzysta)
 
 Algorytm:
-- Rozpoczynamy od pustego podzbioru
-– Jeżeli liczba elementów podzbioru 'T' jest parzysta, to bierzemy różnicę
+1) Rozpoczynamy od pustego podzbioru
+2) Jeżeli liczba elementów podzbioru 'T' jest parzysta, to bierzemy różnicę
 symetryczna podzbioru 'T' i jedoelementowego zbioru złożonego z największego
 elementu, tj 'n'.
-– Gdy liczba elementów zbioru 'T' jest nieparzysta,
+3) Gdy liczba elementów zbioru 'T' jest nieparzysta,
 to jednoelementowym zbiorem jest {j}, gdzie j jest największym elementem
 należącym do 'T' pomniejszonym o jeden.
 """

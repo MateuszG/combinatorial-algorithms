@@ -1,8 +1,12 @@
 """
 Algorytm 9
 
-- zaczynamy od zbioru pustego T
-- obliczamy silnie
+Algorytm:
+1) x = 1
+2) Iterując od 1 do k, zmniejsz wartość 'r' o wartość n_po_k, zwiększ x o 1,
+dopóki n_po_k jest mniejsze od 'r'.
+3) Następnie T[i] przypisz x, zwiększ x o 1.
+4) Szukamy dalej (1), lub wypisujemy 'T'.
 """
 
 
@@ -17,7 +21,7 @@ def n_po_k(n, k):
     return wynik
 
 
-def podzbior_rank(r, k, n):
+def podzbior_unrank(r, k, n):
     x = 1
     T = [0]
     for i in range(1, k + 1):
@@ -32,7 +36,7 @@ def podzbior_rank(r, k, n):
 
 for rank in range(10):
     # empty list for zero index
-    print podzbior_rank(rank, 3, 5)
+    print (podzbior_unrank(rank, 3, 5))
 # [1, 2, 3]
 # [1, 2, 4]
 # [1, 2, 5]
