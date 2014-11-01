@@ -8,8 +8,6 @@ Generowanie wszystkich standardowych podziałów liczby n na k składników.
 składnika
 – a[m+1] może przyjąc wartości od 1 do b
 
-1)
-2)
 b = k
 
 Algorytm:
