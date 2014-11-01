@@ -11,6 +11,11 @@ Odpowiadającymi im podziałami sprzężonymi są:
 2+2+2+1
 
 b = k
+
+Algorytm:
+1) Jeśli 'n' jest równe 0 to wywołaj podzial_sprzezony i wypisz wynik.
+2) Jeśli nie, to przypisz a[m + 1] wartośc 'i' z przedziału 1 do min(B, n).
+3) Wywołaj rekruncyjnie podział* i przejdź do (1).
 """
 
 

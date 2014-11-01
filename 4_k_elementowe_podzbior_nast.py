@@ -1,7 +1,7 @@
 """
 Algorytm 7
 
-Algorytm:
+Algorytm*:
 1) Znajdz pierwsza pozycje t[i] od prawej strony nie zawierajaca największego
 możliwego elementu
 2) Zwiększ t[i] o 1

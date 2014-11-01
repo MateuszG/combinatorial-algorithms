@@ -5,6 +5,7 @@ Dla zadanego ciągu liczb a[1] . . . a[n−2] wybranych w dowolny sposób ze zbi
 {1, . . . , n}, aby wyznaczyć drzewo 'T', dla którego ciąg ten jest jego kodem
 Prufera, należy:
 
+Algorytm*:
 1. Zapisać dwie listy, pierwsza a[1] . . . a[n−2] oraz druga 1, 2, . . . , n
 i rozpoczać ze zbiorem wierzchołków {1, . . . , n} i pustym zbiorem
 krawędzi.

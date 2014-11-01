@@ -1,5 +1,11 @@
 """
 Algorytm 13
+
+Liczba podzialów n-elementowego zbioru na k-niepustych podzbiorów, których
+kolejność nie jest istotna.
+
+Algorytm:
+
 """
 
 

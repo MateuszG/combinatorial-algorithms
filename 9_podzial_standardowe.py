@@ -8,7 +8,14 @@ Generowanie wszystkich standardowych podziałów liczby n na k składników.
 składnika
 – a[m+1] może przyjąc wartości od 1 do b
 
+1)
+2)
 b = k
+
+Algorytm:
+1) Jeśli 'n' jest równe 0 to wypisz 'a'.
+2) Jeśli nie, to przypisz a[m + 1] wartośc 'i' z przedziału 1 do min(b, n).
+3) Wywołaj rekruncyjnie podział i przejdź do (1).
 """
 
 

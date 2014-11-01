@@ -7,7 +7,7 @@ Pierwszym ciągiem jest (1, 1, . . . , 1) a ostatnim (n, n, . . . , n).
 Wektor X[1..k] zawiera ostatni wygenerowany ciąg.
 Inicjujemy wektor 'X' samymi jedynkami.
 
-Algorytm:
+Algorytm*:
 1) szukamy w tablicy 'X', poruszając się od końca (tj. od strony prawej do
 lewej) wyrazu stojącego najbardziej na prawo, który jest mniejszy od 'n'
 2) zwiększamy go o jeden

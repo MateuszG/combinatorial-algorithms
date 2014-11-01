@@ -4,9 +4,11 @@ Algorytm 17
 Procedura wyznaczająca z zadanej funkcji RGF(f[1] , . . . , f[n])
 odpowiadający jej podział zbioru {1, 2, . . . , n} na stosowna liczbe bloków.
 
-Pierwszy 'for' wyznacza, na podstawie zadanej funkcji RGF, liczbe bloków w
+Algorytm*:
+1) Pierwszy 'for' wyznacza, na podstawie zadanej funkcji RGF, liczbe bloków w
 podziale odpowiadającym tej funkcji. Sprowadza się to do wyznaczenia
-największej składowej. W ostatniej pętli 'for' wstawiane są do kolejnych bloków
+największej składowej.
+2) W ostatniej pętli 'for' wstawiane są do kolejnych bloków
 podziału (które początkowo były zbiorami pustymi) stosowne elementy.
 """
 

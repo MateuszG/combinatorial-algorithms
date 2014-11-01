@@ -4,6 +4,7 @@ Algorytm 23
 Aby wyznaczyć kod Prufera dla danego drzewa 'T' na zbiorze wierzchołków
 {1, . . . , n}, należy:
 
+Algorytm*:
 1. Znaleźć największy wierzchołek o stopniu 1, powiedzmy 'v'. Niech 'w' będzie
 wierzchołkiem połączonym z 'v'.
 

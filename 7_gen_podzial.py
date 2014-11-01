@@ -34,6 +34,7 @@ element aktywny - tek który porusza się w prawo lub lewo
 numer bloku - bedzie najmnieszym elmentem w tym bloku (numeracja w bloku jest
 rosnąca)
 
+Algorytm*:
 1) Zdefiniuj tablice
 2) Przenieś element aktywny do sąsiedniego bloku:
 - następnego, jeżeli 'j' porusza się w prawo, w tym przypadku może zajść

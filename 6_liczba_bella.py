@@ -1,10 +1,15 @@
 """
 Algorytm ?
 
-Wyznaczenie liczby Bella wykorzystujac zaleznosci
-rekurencyjne
+Wyznaczenie liczby Bella wykorzystujac zależnosci rekurencyjne
 
 Liczba bella - Liczba wszystkich możliwych podziałów zbioru n-elementowego.
+
+Algorytm:
+1) Jeśli liczba jest mniejsza od 2 to wypisz 1
+2) Jeśli nie to iteruj po 'k' do 'n' za każdym razem zwiększając sumę o
+wartość n_po_k razy wartość liczba_bella(k).
+3) Wypisz liczbę bella
 """
 
 
@@ -15,18 +20,17 @@ def n_po_k(n, k):
         return n_po_k(n-1, k-1) + n_po_k(n - 1, k)
 
 
-def liczba_bella(liczba_n):
-    if liczba_n < 2:
+def liczba_bella(n):
+    if n < 2:
         return 1
     else:
         suma = 0
-        for liczba_k in xrange(liczba_n):
-            # Zwykla suma elementow
-            suma += n_po_k(liczba_n - 1, liczba_k) * liczba_bella(liczba_k)
+        for k in range(n):
+            suma += n_po_k(n - 1, k) * liczba_bella(k)
         return suma
 
 for i in range(10):
-    print i, liczba_bella(i)
+    print (i, liczba_bella(i))
 # 0 1
 # 1 1
 # 2 2

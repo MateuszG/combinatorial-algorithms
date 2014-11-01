@@ -1,5 +1,8 @@
 """
 Algorytm 14
+
+Algorytm:
+
 """
 
 

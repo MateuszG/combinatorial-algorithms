@@ -6,12 +6,13 @@ Procedura wyznaczająca z zadanego podzialu zbioru {1, 2, . . . , n}
 na 'k' bloków {B[1] , . . . , B[k]} odpowiadająca mu funkcje
 (f[1], . . . , f[n]) RGF.
 
-Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru
+Algorytm*:
+1) Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru
 bloku zawierającego ten element (drugi while), a następnie wszystkim składowym
 z indeksami równymi elementom należącym do tego bloku nadajemy numer bloku
 (instrukcja for each).
 
-Czyność tę powtarzamy 'k' razy biorąc pod uwage kolejny element 'j' zbioru,
+2) Czyność tę powtarzamy 'k' razy biorąc pod uwage kolejny element 'j' zbioru,
 dla którego składowa f[j] jest jeszcze równa zero. W tym celu przed wejściem
 do głównej pętli wszystkie składowe szukanej funkcji RGF muszą zostać
 wyzerowane.

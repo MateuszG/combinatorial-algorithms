@@ -4,7 +4,7 @@ Algorytm 10
 Dla zadanej permutacji algorytm wyznacza jej
 bezpośredniego "następnika" w uporządkowaniu leksykograficznym
 
-Algorytm:
+Algorytm*:
 1) Wyznacz indeks 'i'.
 2) Jeżeli i == 0, to brak następnika.
 3) Następnie wyznacz indeks 'j' najmiejszego elementu, który jest większy od

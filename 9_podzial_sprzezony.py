@@ -17,6 +17,12 @@ bijekcja ze zbioru podzialów liczby 'n' na 'k' składników na zbiór podzialó
 liczby 'n' (na dowolna liczbę skladników), w których największym składnikiem
 jest 'k'.
 
+Algorytm:
+1) Zainicjalizuj listę b jedynkami.
+2) Iteruj po zadanej liście 'a' od 2 do ilości elementóœ na liście.
+3) Dla każdego elementu z listy 'a' iteruj jako 'i', od 1 do wartości a[j].
+2) Zwiększ wartość b[i] o 1.
+
 b = k
 """
 
