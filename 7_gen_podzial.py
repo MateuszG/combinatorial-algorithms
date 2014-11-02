@@ -11,7 +11,7 @@ Wyznaczanie elementu aktywnego:
 elementu
 – początkowo mamy jedno-blokowy podzial {1, 2, . . . , n}
 – wszystkie warości tablicy PR maja przyporządkowana wartości 'true'
-– zasada: po wygenerowaniu (i wypisaniu) kolejnego podzialu wyznaczamy ,,nowy”
+– zasada: po wygenerowaniu (i wypisaniu) kolejnego podzialu wyznaczamy 'nowy'
 element aktywny zawsze poczynając analize od elementu największego
 – dany element jest przesuwany (tzn. jest aktywny) tylko wtedy, gdy wszystkie
 większe od niego elementy osiągneły swoje skrajne lewe lub prawe polożenie
@@ -41,6 +41,10 @@ Algorytm*:
 utworzenie nowego bloku.
 - poprzedniego jeżeli 'j' porusza się w lewo.
 3) Wyznacz element aktwyny w nowym podziale.
+– zasada: po wygenerowaniu (i wypisaniu) kolejnego podzialu wyznaczamy 'nowy'
+element aktywny zawsze poczynając analize od elementu największego
+– dany element jest przesuwany (tzn. jest aktywny) tylko wtedy, gdy wszystkie
+większe od niego elementy osiągneły swoje skrajne lewe lub prawe polożenie
 """
 
 

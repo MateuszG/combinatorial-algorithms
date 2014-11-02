@@ -1,10 +1,12 @@
-# -*- coding: utf-8 -*-
 """
 Algorytm 16
 
 Procedura wyznaczająca z zadanego podzialu zbioru {1, 2, . . . , n}
 na 'k' bloków {B[1] , . . . , B[k]} odpowiadająca mu funkcje
 (f[1], . . . , f[n]) RGF.
+
+Przed wejściem do głównej pętli wszystkie składowe szukanej funkcji RGF muszą
+zostać wyzerowane.
 
 Algorytm*:
 1) Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru
@@ -13,9 +15,7 @@ z indeksami równymi elementom należącym do tego bloku nadajemy numer bloku
 (instrukcja for each).
 
 2) Czyność tę powtarzamy 'k' razy biorąc pod uwage kolejny element 'j' zbioru,
-dla którego składowa f[j] jest jeszcze równa zero. W tym celu przed wejściem
-do głównej pętli wszystkie składowe szukanej funkcji RGF muszą zostać
-wyzerowane.
+dla którego składowa f[j] jest jeszcze równa zero.
 """
 
 

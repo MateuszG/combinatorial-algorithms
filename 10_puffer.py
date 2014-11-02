@@ -1,16 +1,17 @@
 """
 Algorytm 23
 
-Aby wyznaczyć kod Prufera dla danego drzewa 'T' na zbiorze wierzchołków
-{1, . . . , n}, należy:
+Algorytm wyznaczający kod Prufera dla danego drzewa 'T' na zbiorze wierzchołków
+opisanym jako {1, 2, ..., n}, który wygeneruje kod Prüfera stanowiący n-2
+wyrazowy ciąg liczb ze zbioru {1,2, ..., n}.
 
 Algorytm*:
-1. Znaleźć największy wierzchołek o stopniu 1, powiedzmy 'v'. Niech 'w' będzie
-wierzchołkiem połączonym z 'v'.
+1. Znaleźć wierzchołek o stopniu 1, o jak najwyższym numerze ze zbioru
+{1,2,...,n} powiedzmy 'v'. Niech 'w' będzie wierzchołkiem połączonym z 'v'.
 
-2. Zapisać 'w' oraz usunać wierzchołek 'v' wraz z krawędzia 'vw'.
+2. Zapisać 'w' oraz usunać krawędź 'vw'.
 
-3. Jeżeli w drzewie pozostała więcej niż jedna krawędź, to przejść do kroku 1;
+3. Jeżeli w drzewie pozostała więcej niż jedna krawędź, to przejść do kroku (1)
 w przeciwnym razie zakończyć algorytm.
 
 Otrzymany ciąg liczb jest kodem Prufera dla drzewa 'T'.

@@ -3,7 +3,7 @@ Algorytm 18*
 
 Algorytm*:
 1) Idea algorytmu polega na znalezieniu pierwszej pozycji z prawej
-strony tablicy f, dla której f[j] = ̸= F[j].
+strony tablicy f, dla której f[j] != F[j].
 
 2) Wówczas wartość elementu f[j] zostaje zwiększona o jeden a wszystkie
 elementy leżące na prawo od niego czynimy równe jeden, uaktualniając
