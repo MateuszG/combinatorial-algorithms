@@ -41,7 +41,7 @@ def podzial_rgf(n, B):
         while j not in B[h]:
             h = h + 1
 
-        for i, g in enumerate(B[h]):
+        for g in B[h]:
             F[g] = h
 
     return F[1:]  # Exclude first element
