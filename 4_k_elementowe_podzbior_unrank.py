@@ -21,7 +21,7 @@ def n_po_k(n, k):
     return wynik
 
 
-def podzbior_unrank(r, k, n):
+def k_elementowe_podzbiory_unrank(r, k, n):
     x = 1
     T = [0]
     for i in range(1, k + 1):
@@ -36,7 +36,7 @@ def podzbior_unrank(r, k, n):
 
 for rank in range(10):
     # empty list for zero index
-    print (podzbior_unrank(rank, 3, 5))
+    print (k_elementowe_podzbiory_unrank(rank, 3, 5))
 # [1, 2, 3]
 # [1, 2, 4]
 # [1, 2, 5]

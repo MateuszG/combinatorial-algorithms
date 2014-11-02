@@ -44,7 +44,7 @@ unranks = [
 ]
 
 for unrank in unranks:
-    print perm_rank(3, [[]] + unrank)
+    print (perm_rank(3, [[]] + unrank))
 
 # [1, 3, 2]
 # [2, 3, 1]

@@ -10,7 +10,7 @@ możliwego elementu
 """
 
 
-def podzbior_nast(T, k, n):
+def k_elementowe_podzbiory_nast(T, k, n):
     U = T
     i = k
     while i >= 1 and T[i] == n - k + i:
@@ -37,7 +37,7 @@ unranks = [
 ]
 for unrank in unranks:
     # empty list for zero index
-    print podzbior_nast([[]] + unrank, 3, 5)
+    print (k_elementowe_podzbiory_nast([[]] + unrank, 3, 5))
 # [1, 2, 4]
 # [1, 2, 5]
 # [1, 3, 5]

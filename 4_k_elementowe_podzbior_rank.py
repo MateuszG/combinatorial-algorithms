@@ -21,11 +21,11 @@ def silnia(n):
 def n_po_k(n, k):
     po_n = silnia(n)
     po_k = silnia(k) * silnia(n - k)
-    wynik = po_n / po_k
+    wynik = po_n // po_k
     return wynik
 
 
-def podzbior_rank(T, k, n):
+def k_elementowe_podzbiory_rank(T, k, n):
     r = 0
     T[0] = 0
     for i in range(1, k + 1):
@@ -49,7 +49,7 @@ unranks = [
 ]
 for unrank in unranks:
     # empty list for zero index
-    print podzbior_rank([[]] + unrank, 3, 5)
+    print (k_elementowe_podzbiory_rank([[]] + unrank, 3, 5))
 # 0
 # 1
 # 2
