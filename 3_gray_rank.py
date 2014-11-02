@@ -10,8 +10,8 @@ wartością i-tego bitu w binarnej reprezentacji r.
 Algorytm:
 1) Inicjalizujemy r = 0 i b = 0
 2) Szukamy od n - 1 do 0 takiego 'i', którego wartość n - i znajduje się w
-zbiorze 'T', gdy znajdziemy to aktualizujemy wartość 'b'.
-3) Jeżeli b = 1, to dodajemy do 'r' wartość 2**i.
+zbiorze 'T', gdy znajdziemy to aktualizujemy wartość 'b' przypisując 1 - 'b'.
+3) Jeżeli b = 1, to zwiększamy 'r' wartość 2**i.
 4) Szukamy dalej (1), lub wypisujemy 'r'.
 
 """
