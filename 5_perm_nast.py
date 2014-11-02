@@ -1,8 +1,8 @@
 """
 Algorytm 10
 
-Dla zadanej permutacji algorytm wyznacza jej
-bezpośredniego "następnika" w uporządkowaniu leksykograficznym
+Dla zadanej permutacji algorytm wyznacza jej bezpośredniego "następnika" w
+uporządkowaniu leksykograficznym.
 
 Algorytm*:
 1) Wyznacz indeks 'i'.
@@ -14,7 +14,7 @@ T[i].
 """
 
 
-def perm_rank(n, T):
+def perm_nastepnik(n, T):
     T[0] = 0
     i = n - 1
     while T[i + 1] < T[i]:
@@ -44,7 +44,7 @@ unranks = [
 ]
 
 for unrank in unranks:
-    print (perm_rank(3, [[]] + unrank))
+    print (perm_nastepnik(3, [[]] + unrank))
 
 # [1, 3, 2]
 # [2, 3, 1]
