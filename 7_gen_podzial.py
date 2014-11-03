@@ -1,7 +1,7 @@
 """
 Algorytm 15
 
-każdy następny podziału powstaje z poprzedniego przez usunięcie pewnego
+Każdy następny podziału powstaje z poprzedniego przez usunięcie pewnego
 elementu (zwanego dalej elementem aktywnym) z pewnego bloku (może to spowodować
 usunięcie bloku jednoelementowego) i dodanie go do innego bloku lub też
 utworzenie z niego bloku jednoelementowego
@@ -30,7 +30,7 @@ B[i] - numer bloku zawierającego element 'i'.
 PR[j] - kierunek poruszania się elementu aktywnego.
 PR[j] gdy True to 'j' porusza się w prawo, gdy False 'j' porusza się w lewo.
 
-element aktywny - tek który porusza się w prawo lub lewo
+element aktywny - porusza się w prawo lub lewo
 numer bloku - bedzie najmnieszym elmentem w tym bloku (numeracja w bloku jest
 rosnąca)
 
@@ -41,14 +41,13 @@ Algorytm*:
 utworzenie nowego bloku.
 - poprzedniego jeżeli 'j' porusza się w lewo.
 3) Wyznacz element aktwyny w nowym podziale.
-– zasada: po wygenerowaniu (i wypisaniu) kolejnego podzialu wyznaczamy 'nowy'
-element aktywny zawsze poczynając analize od elementu największego
-– dany element jest przesuwany (tzn. jest aktywny) tylko wtedy, gdy wszystkie
-większe od niego elementy osiągneły swoje skrajne lewe lub prawe polożenie
+– Zawsze zaczynamy analizę od elementu największego
+– Dany element jest aktywny tylko wtedy, gdy wszystkie większe od niego
+elementy osiągneły swoje skrajne lewe lub prawe polożenie.
 """
 
 
-def algorytm(n):
+def gen_podzial(n):
     # Tworzenie tablic N P B PR
     N = [0 for _ in range(0, n + 1)]
     P = [0 for _ in range(0, n + 1)]
@@ -102,9 +101,9 @@ def drukuj(B):
             slownik[B[i]] += [i]
         else:
             slownik[i] = [i]
-    print slownik
+    print (slownik)
 
-algorytm(4)
+gen_podzial(4)
 # {1: [1, 2, 3, 4]}
 # {1: [1, 2, 3], 4: [4]}
 # {1: [1, 2], 3: [3], 4: [4]}
