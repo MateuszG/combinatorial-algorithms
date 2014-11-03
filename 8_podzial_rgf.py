@@ -9,12 +9,11 @@ Przed wejściem do głównej pętli wszystkie składowe szukanej funkcji RGF mus
 zostać wyzerowane.
 
 Algorytm*:
-1) Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru
-bloku zawierającego ten element (drugi while), a następnie wszystkim składowym
-z indeksami równymi elementom należącym do tego bloku nadajemy numer bloku
-(instrukcja for each).
-
-2) Czyność tę powtarzamy 'k' razy biorąc pod uwage kolejny element 'j' zbioru,
+1) Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru bloku
+zawierającego ten element (drugi while).
+2) Następnie wszystkim składowym z indeksami równymi elementom należącym do
+tego bloku nadajemy numer bloku (instrukcja for each).
+3) Czyność tę powtarzamy 'k' razy biorąc pod uwage kolejny element 'j' zbioru,
 dla którego składowa f[j] jest jeszcze równa zero.
 """
 
