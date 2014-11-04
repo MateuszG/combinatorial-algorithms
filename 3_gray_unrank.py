@@ -9,7 +9,6 @@ Algorytm:
 2) Itermujemy od 'n-1' do 0 za każdym przypisując do 'b' wynik dzielenia 'r'
 przez 2**i. Jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1],
 a wartość 'r' zmniejszamy o b2**i.
-3) Szukamy dalej (1), lub wypisujemy 'T'.
 
 """
 

@@ -8,7 +8,6 @@ Algorytm:
 1) W przedziale od 1 do 'n' sprawdzamy kolejne reszty wartości 'r', podzielnych
 przez 2, gdy wynik równa się jeden to do zbioru 'T' dodajemy 'i'.
 2) W kolejnym korku pomniejszamy 'r' o połowę.
-3) Szukamy dalej (1), lub wypisujemy 'T'.
 """
 
 

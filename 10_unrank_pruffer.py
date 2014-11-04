@@ -4,7 +4,6 @@ Algorytm:
 1) Tworzymy liste 'L' od końca, przypisując do niej wartość mod(r,n) + 1.
 2) Zmieniejszamy wartość rangi o L[i] + 1.
 3) Rangę następnie dzielimy przez 'n'.
-4) Iterujemy dalej (1), lub wypisujemy kod pruffera 'L'.
 """
 
 

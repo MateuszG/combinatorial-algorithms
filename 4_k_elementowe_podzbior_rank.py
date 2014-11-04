@@ -9,7 +9,6 @@ Algorytm:
 mniejszy lub równy t[i - 1] + 1, to iteruj 'j' od wartości T[i - 1] + 1 do
 wartości T[i] - 1.
 3) Następne zwiększ range o wartość n_po_k
-4) Szukamy dalej (1), lub wypisujemy 'r'.
 """
 
 

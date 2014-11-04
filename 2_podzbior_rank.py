@@ -10,7 +10,6 @@ liczba całkowitą, której binarna reprezentacja jest X(T).
 Algorytm:
 1) W przedziale od 1 do 'n' szukamy 'i', które znajduje się w zbiorze 'T'.
 2) Jeśli znaleziono ten element to zwiększamy wartość 'r' ze wzoru 2**(n-1).
-3) Szukamy dalej (1), lub wypisujemy 'r'.
 """
 
 

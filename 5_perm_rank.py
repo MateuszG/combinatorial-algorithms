@@ -1,12 +1,10 @@
 """
 Algorytm 11
 Algorytm:
-1) Iterujemy za pomocą 'j' od 1 do 'n'. Za każdym razem zwiększamy rangę 'r' o
-wartość p[j] + 1 pomnożoną przez silnie(n - j).
-2) Następnie dla każdego 'i' iterujemy raz jeszcze, ale za pomocą 'i' od j + 1
-do 'n'.
+1) Dla każdego j, zwiększamy rangę 'r' o wartość p[j] + 1 pomnożoną przez
+silnie(n - j).
+2) Następnie iterujemy raz jeszcze za pomocą 'i'.
 3) Jeśli p[i] > p[j] to zmniejszamy wartość p[i] o jeden.
-4) Po przejściu wszystkich pętli wypisz 'r'
 
 """
 

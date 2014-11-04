@@ -5,7 +5,6 @@ Algorytm:
 2) Iterując od 1 do k, zmniejsz wartość 'r' o wartość n_po_k, zwiększ x o 1,
 dopóki n_po_k jest mniejsze od 'r'.
 3) Następnie T[i] przypisz x, zwiększ x o 1.
-4) Szukamy dalej (1), lub wypisujemy 'T'.
 """
 
 

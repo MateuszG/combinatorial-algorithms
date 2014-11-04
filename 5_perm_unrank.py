@@ -1,13 +1,12 @@
 """
 Algorytm 12
 Algorytm:
-1) Iterujemy za pomocą 'j' do n - 1. Za każdym razem przypisując do 'd' wartość
+1) Iterujemy po 'j' za każdym razem przypisując do 'd' wartość
 'r' z reszty dzielenia przez silnia(j + 1), dzieloną przez silnię z 'j'.
 2) 'r' zmniejsz o 'd' razy silnia z 'j'.
-3) T[n - j] przypisz d + 1
+3) T[n - j] przypisz d + 1.
 4) Szukaj takiego T[i], które będzie większe od 'd', jeśli znajdziesz to T[i]
-zwiększ o jeden (w zakresie od n - j + 1 do 'n')
-5) Przejdż do (1) lub wypisz 'T'
+zwiększ o jeden.
 """
 
 
