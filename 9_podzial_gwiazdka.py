@@ -1,6 +1,5 @@
 """
 Algorytm 22 - Podzial gwiazdka - Generowanie podziałów liczb n na k składników.
-
 Trzy podzialy liczby 7, w których największym składnikiem jest 4:
 4+1+1+1
 4+2+1

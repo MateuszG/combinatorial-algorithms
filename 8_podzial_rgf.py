@@ -1,9 +1,7 @@
 """
 Algorytm 16
-
-Procedura wyznaczająca z zadanego podzialu zbioru {1, 2, . . . , n}
-na 'k' bloków {B[1] , . . . , B[k]} odpowiadająca mu funkcje
-(f[1], . . . , f[n]) RGF.
+Procedura wyznaczająca z zadanego podzialu zbioru {1, 2, ..., n} na 'k' bloków
+{B[1] , ..., B[k]} odpowiadająca mu funkcje (f[1], ..., f[n]) RGF.
 
 Algorytm*:
 1) Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru bloku

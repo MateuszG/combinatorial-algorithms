@@ -1,6 +1,5 @@
 """
 Algorytm 15
-
 Każdy następny podziału powstaje z poprzedniego przez usunięcie pewnego
 elementu (zwanego dalej elementem aktywnym) z pewnego bloku (może to spowodować
 usunięcie bloku jednoelementowego) i dodanie go do innego bloku lub też

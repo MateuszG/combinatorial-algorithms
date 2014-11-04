@@ -1,6 +1,5 @@
 """
 Algorytm 4
-
 Algorytm wyznaczający następnik w kodzie Graya:
 – Rozpoczynamy od ciągu zlożonego z samych zer, który odpowiada zbiorowi
 pustemu

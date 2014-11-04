@@ -1,6 +1,5 @@
 """
 Algorytm 20 - Podzial sprzężony
-
 Procedura, która dla danego podziału (a[1], a[2], . . . , a[m]) wyznacza
 podział do niego sprzężony.
 Podziały sprzeżone:

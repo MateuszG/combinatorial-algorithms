@@ -1,6 +1,5 @@
 """
 Algorytm 2
-
 Dla danego podzbioru T ⊆ S definiujemy wektor charakterystyczny
 
 Traktując charakterystyczne wektory jako binarną reprezentacje liczb

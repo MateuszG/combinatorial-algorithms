@@ -1,6 +1,5 @@
 """
 Algorytm 17
-
 Procedura wyznaczająca z zadanej funkcji RGF(f[1] , . . . , f[n])
 odpowiadający jej podział zbioru {1, 2, . . . , n} na stosowna liczbe bloków.
 

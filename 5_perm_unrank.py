@@ -1,6 +1,5 @@
 """
 Algorytm 12
-
 Algorytm:
 1) Iterujemy za pomocą 'j' do n - 1. Za każdym razem przypisując do 'd' wartość
 'r' z reszty dzielenia przez silnia(j + 1), dzieloną przez silnię z 'j'.

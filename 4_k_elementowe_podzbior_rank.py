@@ -1,6 +1,5 @@
 """
 Algorytm 8
-
 Wyznacza liczbę k-elementowych podzbiorów poprzdzających zadany zbiór T w
 uporządkowaniu leksykograficznym.
 

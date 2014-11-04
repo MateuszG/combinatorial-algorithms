@@ -1,6 +1,5 @@
 """
 Algorytm 23
-
 Algorytm wyznaczający kod Prufera dla danego drzewa 'T' na zbiorze wierzchołków
 opisanym jako {1, 2, ..., n}, który wygeneruje kod Prüfera stanowiący n-2
 wyrazowy ciąg liczb ze zbioru {1,2, ..., n}.

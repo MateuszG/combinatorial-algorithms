@@ -1,6 +1,5 @@
 """
 Algorytm 25
-
 Algorytm:
 1) Inicjujemy r = 0 i p = 1
 2) Iterujemy od prawej (n - 2) do lewej (1) po liście 'L'. Za każdym razem

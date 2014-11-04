@@ -1,6 +1,5 @@
 """
 Algorytm 11
-
 Algorytm:
 1) Iterujemy za pomocą 'j' od 1 do 'n'. Za każdym razem zwiększamy rangę 'r' o
 wartość p[j] + 1 pomnożoną przez silnie(n - j).

@@ -1,6 +1,5 @@
 """
 Algorytm 1
-
 Generuj w porządku leksykograficznym wszystkie ciągi długości 'k' zbudowane
 z liczb od 1 do n.
 Pierwszym ciągiem jest (1, 1, . . . , 1) a ostatnim (n, n, . . . , n).

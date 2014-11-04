@@ -1,6 +1,5 @@
 """
 Algorytm 26
-
 Algorytm:
 1) Tworzymy liste 'L' od końca, przypisując do niej wartość mod(r,n) + 1.
 2) Zmieniejszamy wartość rangi o L[i] + 1.

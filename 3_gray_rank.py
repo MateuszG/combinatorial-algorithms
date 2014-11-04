@@ -1,6 +1,5 @@
 """
 Algorytm 5
-
 Iteracyjnie uaktualniamy wartość b mając na uwadzę
 – czy a[i] = 1 (zachodzi jeżeli n − i in T)
 – czy a[i] = 0 (zachodzi jeżeli n − i not in T)

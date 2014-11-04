@@ -1,6 +1,5 @@
 """
 Algorytm 24 - Rekonstrukcja drzewa z kodu Prufera
-
 Algorytm wyznaczający drzewo na podstawie kodu pruffera stanowiącego n-2
 wyrazowy ciąg liczb (a[1] ... a[n−2]) ze zbioru {1, 2, ..., n}, wygeneruje
 drzewo 'T' o zbiorze wierzchołków {1, 2, ..., n}.

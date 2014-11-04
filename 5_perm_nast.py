@@ -1,6 +1,5 @@
 """
 Algorytm 10
-
 Dla zadanej permutacji algorytm wyznacza jej bezpośredniego "następnika" w
 uporządkowaniu leksykograficznym.
 
