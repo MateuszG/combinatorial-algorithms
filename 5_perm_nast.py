@@ -9,7 +9,7 @@ Algorytm*:
 3) Następnie wyznacz indeks 'j' najmiejszego elementu, który jest większy od
 T[i].
 4) Przypisz p[h] = T[h].
-5) Odwróć podlistę.
+5) Odwróć podlistę p[h] i przypisz do T[h], wypisz T
 """
 
 

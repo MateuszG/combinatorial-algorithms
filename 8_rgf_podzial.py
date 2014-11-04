@@ -7,8 +7,8 @@ Algorytm*:
 1) Pierwszy 'for' wyznacza, na podstawie zadanej funkcji RGF, liczbe bloków w
 podziale odpowiadającym tej funkcji. Sprowadza się to do wyznaczenia
 największej składowej.
-2) W ostatniej pętli 'for' wstawiane są do kolejnych bloków
-podziału (które początkowo były zbiorami pustymi) stosowne elementy.
+2) W ostatniej pętli 'for' wstawiane są do kolejnych bloków podziału stosowne
+elementy.
 """
 
 

@@ -1,7 +1,6 @@
 """
-Algorytm ?
-Wyznaczenie liczby Bella wykorzystujac zależnosci rekurencyjne.
-Liczba bella - Liczba wszystkich możliwych podziałów zbioru n-elementowego.
+Algorytm 27
+Liczba Bella - wyznacza wszystkie możliwe podziały zbioru n-elementowego.
 
 Algorytm:
 1) Jeśli liczba jest mniejsza od 2 to wypisz 1.
