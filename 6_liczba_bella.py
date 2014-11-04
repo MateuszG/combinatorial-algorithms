@@ -6,7 +6,6 @@ Algorytm:
 1) Jeśli liczba jest mniejsza od 2 to wypisz 1.
 2) Jeśli nie to iteruj po 'k', od 1 do 'n' za każdym razem zwiększając sumę o
 wartość n_po_k razy wartość liczba_bella(k).
-3) Wypisz liczbę bella.
 """
 
 
