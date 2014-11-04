@@ -8,12 +8,9 @@ wyrazowy ciąg liczb ze zbioru {1,2, ..., n}.
 Algorytm*:
 1. Znaleźć wierzchołek o stopniu 1, o jak najwyższym numerze ze zbioru
 {1,2,...,n} powiedzmy 'v'. Niech 'w' będzie wierzchołkiem połączonym z 'v'.
-
 2. Zapisać 'w' oraz usunać krawędź 'vw'.
-
 3. Jeżeli w drzewie pozostała więcej niż jedna krawędź, to przejść do kroku (1)
 w przeciwnym razie zakończyć algorytm.
-
 Otrzymany ciąg liczb jest kodem Prufera dla drzewa 'T'.
 
 E - wierzcholki

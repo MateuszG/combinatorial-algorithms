@@ -4,7 +4,7 @@ Algorytm 15
 Każdy następny podziału powstaje z poprzedniego przez usunięcie pewnego
 elementu (zwanego dalej elementem aktywnym) z pewnego bloku (może to spowodować
 usunięcie bloku jednoelementowego) i dodanie go do innego bloku lub też
-utworzenie z niego bloku jednoelementowego
+utworzenie z niego bloku jednoelementowego.
 
 Wyznaczanie elementu aktywnego:
 – dysponujemy tablica boolowska PR określająca kierunek poruszania się danego
@@ -29,8 +29,7 @@ P[i] - numer poprzedniego bloku o numerze podziału 'i'.
 B[i] - numer bloku zawierającego element 'i'.
 PR[j] - kierunek poruszania się elementu aktywnego.
 PR[j] gdy True to 'j' porusza się w prawo, gdy False 'j' porusza się w lewo.
-
-element aktywny - porusza się w prawo lub lewo
+Element aktywny - porusza się w prawo lub lewo
 numer bloku - bedzie najmnieszym elmentem w tym bloku (numeracja w bloku jest
 rosnąca)
 

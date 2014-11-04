@@ -5,9 +5,6 @@ Procedura wyznaczająca z zadanego podzialu zbioru {1, 2, . . . , n}
 na 'k' bloków {B[1] , . . . , B[k]} odpowiadająca mu funkcje
 (f[1], . . . , f[n]) RGF.
 
-Przed wejściem do głównej pętli wszystkie składowe szukanej funkcji RGF muszą
-zostać wyzerowane.
-
 Algorytm*:
 1) Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru bloku
 zawierającego ten element (drugi while).

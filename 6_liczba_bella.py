@@ -1,8 +1,7 @@
 """
 Algorytm ?
 
-Wyznaczenie liczby Bella wykorzystujac zależnosci rekurencyjne
-
+Wyznaczenie liczby Bella wykorzystujac zależnosci rekurencyjne.
 Liczba bella - Liczba wszystkich możliwych podziałów zbioru n-elementowego.
 
 Algorytm:
