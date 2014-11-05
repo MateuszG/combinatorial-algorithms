@@ -5,7 +5,7 @@ opisanym jako {1, 2, ..., n}, który wygeneruje kod Prüfera stanowiący n-2
 wyrazowy ciąg liczb ze zbioru {1,2, ..., n}.
 
 Algorytm*:
-1. Stwórz tablice stopni wierzchołków 'd'.
+1. Stwórz tablice stopni wierzchołków d[1, ..., n].
 2. Wyznacz największy wierchołek stopnia 1.
 3. Znajdź wiechołek 'y' z którym połączony jest wierzchołek 'x'.
 4. Wstaw 'y' do tablicy 'L', usuń krawędź [x, y] z 'E' i zmodyfikuj tablice
