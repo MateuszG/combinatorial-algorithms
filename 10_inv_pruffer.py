@@ -6,7 +6,7 @@ drzewo 'T' o zbiorze wierzchołków {1, 2, ..., n}.
 
 Algorytm*:
 1. Rozpoczynamy z pustym zbiorem krawędzi 'E'.
-2. Wyznaczamy ciąg stopni wierzchołków.
+2. Wyznaczamy tablice stopni wierzchołków.
 3. Szukamy największego wierzchołka 'x', który nie występuje na liście.
 4. Pod 'y' podstaw pierwszy element aktualnego kodu pruffera. Zmniejsz o 1
 stopnie wierzchołków 'x' i 'y' i dodaj do zbioru krawędzi krawędź [x, y].
