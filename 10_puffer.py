@@ -5,22 +5,20 @@ opisanym jako {1, 2, ..., n}, który wygeneruje kod Prüfera stanowiący n-2
 wyrazowy ciąg liczb ze zbioru {1,2, ..., n}.
 
 Algorytm*:
-1. Znaleźć wierzchołek o stopniu 1, o jak najwyższym numerze ze zbioru
-{1,2,...,n} powiedzmy 'v'. Niech 'w' będzie wierzchołkiem połączonym z 'v'.
-2. Zapisać 'w' oraz usunać krawędź 'vw'.
-3. Jeżeli w drzewie pozostała więcej niż jedna krawędź, to przejść do kroku (1)
-w przeciwnym razie zakończyć algorytm.
-Otrzymany ciąg liczb jest kodem Prufera dla drzewa 'T'.
-
-E - wierzcholki
-n - krawedzie
+1. Stwórz tablice stopni wierzchołków 'd'.
+2. Wyznacz największy wierchołek stopnia 1.
+3. Znajdź wiechołek 'y' z którym połączony jest wierzchołek 'x'.
+4. Wstaw 'y' do tablicy 'L', usuń krawędź [x, y] z 'E' i zmodyfikuj tablice
+stopni 'd.'
+5. Powtarzaj kroki (2-4) łącznie n-2 razy.
 """
 
 
 def pruffer(n, E):
-    # tworze liste n elementowa wypelniona zerami
+    # n - krawedzie, E - wierzcholki
+    # tworze liste stopni n-elementowa wypelniona zerami
     d = [0 for i in range(n)]
-    # tworze liste n elementowa wypelniona od 1 do n-2
+    # tworze liste n-elementowa wypelniona od 1 do n-2
     L = [i+1 for i in range(n-2)]
 
     for x, y in E:

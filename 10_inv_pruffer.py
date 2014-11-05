@@ -5,25 +5,17 @@ wyrazowy ciąg liczb (a[1] ... a[n−2]) ze zbioru {1, 2, ..., n}, wygeneruje
 drzewo 'T' o zbiorze wierzchołków {1, 2, ..., n}.
 
 Algorytm*:
-1. Zapisać dwie listy, pierwsza (a[1] ..., a[n−2]) oraz druga {1, 2, ..., n}
-i rozpoczać ze zbiorem wierzchołków {1, 2, ..., n} i pustym zbiorem
-krawędzi.
-2. Wyznaczyć z drugiej listy największą liczbę, powiedzmy 'i', która nie
-występuje na pierwszej liście. Usunąć pierwszy element z pierwszej listy,
-powiedzmy 'j', usunąć 'i' z drugiej listy oraz dodać do zbioru krawędzi krawędź
-'ij'.
-3. Jeżeli pierwsza lista zawiera co najmniej jedną liczbę, to przejść
-do (2). W przeciwnym razie, jeżeli pierwsza lista jest pusta, to
-druga lista będzie składała się z dokładnie dwóch liczb. Dodać
-do zbioru krawędzi ostatnia krawędź i zakończć algorytm.
-
-L - zbior
-n - krawedzie
+1. Rozpoczynamy z pustym zbiorem krawędzi 'E'.
+2. Wyznaczamy ciąg stopni wierzchołków.
+3. ZNajdź największy wierzchołek 'x', który nie występuje na liście.
+4. Pod 'y' podstaw pierwszy element aktualnego kodu pruffera. Zmniejsz o 1
+stopnie wierzchołków 'x' i 'y' i dodaj do zbioru krawędzi krawędź [x, y]
+5. Powtarzaj kroki (3) i (4) stosowną ilość razy.
 """
 
 
 def inv_pruffer(n, L):
-    # tworze liste n elementowa wypelniona jedynkami
+    # tworze liste stopni n-elementowa wypelniona jedynkami
     d = [1 for i in range(n)]
     E = []
 
