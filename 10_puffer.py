@@ -8,8 +8,8 @@ Algorytm*:
 1. Stwórz tablice stopni wierzchołków d[1, ..., n].
 2. Wyznacz największy wierchołek stopnia 1.
 3. Znajdź wiechołek 'y' z którym połączony jest wierzchołek 'x'.
-4. Wstaw 'y' do tablicy 'L', usuń krawędź [x, y] z 'E' i zmodyfikuj tablice
-stopni 'd.'
+4. Wstaw 'y' do tablicy 'L', usuń krawędź [x, y] z 'E' i zmniejsz o 1
+stopnie wierzchołków 'x' i 'y' w tablicy 'd'.
 5. Powtarzaj kroki (2-4) łącznie n-2 razy.
 """
 
