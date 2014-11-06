@@ -1,10 +1,11 @@
 """
 Algorytm 11
 Algorytm:
-1) Dla każdego j, zwiększamy rangę 'r' o wartość p[j] + 1 pomnożoną przez
-silnie(n - j).
-2) Następnie iterujemy raz jeszcze za pomocą 'i'.
-3) Jeśli p[i] > p[j] to zmniejszamy wartość p[i] o jeden.
+1) Dla każdego j, zwiększamy rangę 'r' o wartość T[j] pomniejszoną o jeden i
+pomnożoną przez silnie(n - j).
+2) Następnie szukamy T[i] większego od T[j], jeśli znajdziemy to zmniejszamy
+wartość T[i] o 1.
+3) Powtarzamy kroki (1-2) stosowną ilość razy.
 
 """
 
