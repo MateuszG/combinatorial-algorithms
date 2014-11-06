@@ -6,8 +6,8 @@ reprezentacji liczby r.
 
 Algorytm:
 1) Inicjalizujemy listę 'T' i wartość c = 0
-2) Itermujemy od 'n-1' do 0 za każdym przypisując do 'b' wynik dzielenia 'r'
-przez 2**i. Jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1],
+2) Itermujemy od 'n-1' do 0 za każdym razem przypisując do 'b' wynik dzielenia
+'r' przez 2**i. Jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1],
 a wartość 'r' zmniejszamy o b2**i.
 
 """
