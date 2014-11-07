@@ -13,7 +13,7 @@ liczby 'n' (na dowolna liczbę skladników), w których największym składnikie
 jest 'k'.
 
 Algorytm:
-1) Zainicjalizuj listę b jedynkami.
+1) Zainicjalizuj listę b jedynkami o długości a[1].
 2) Iteruj 'j' po zadanej liście 'a' od 2 do liczby ilości elementów na liście.
 3) Dla każdego elementu z listy 'a' iteruj jako 'i', od 1 do wartości a[j].
 4) Zwiększ wartość b[i] o 1.
