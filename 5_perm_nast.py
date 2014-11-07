@@ -8,8 +8,8 @@ Algorytm*:
 2) Jeżeli i == 0, to brak następnika.
 3) Następnie wyznacz indeks 'j' najmiejszego elementu, który jest większy od
 T[i].
-4) Przypisz p[h] = T[h].
-5) Odwróć podlistę p[h] i przypisz do T[h], wypisz T
+4) Przypisz T[i] = T[j].
+5) Odwróć podlistę i wypisz T
 """
 
 
@@ -20,9 +20,9 @@ def perm_nastepnik(n, T):
         i = i - 1
     if i == 0:
         return None
-    j = n
-    while T[j] < T[i]:
-        j = j - 1
+    # j = n
+    # while T[j] < T[i]:
+    #     j = j - 1
 
     p = [1 for _ in range(n + 1)]
     for h in range(i, n + 1):
