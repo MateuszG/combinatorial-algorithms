@@ -5,7 +5,7 @@ T mającego pozycje r w uporządkowaniu leksykograficznym, polega na badaniu
 reszt kolejnych wartości r pomniejszanych w każdym kroku o połowę.
 
 Algorytm:
-1) W przedziale od 1 do 'n' sprawdzamy kolejne reszty wartości 'r', podzielnych
+1) W przedziale od 'n' do 1 sprawdzamy kolejne reszty wartości 'r', podzielnych
 przez 2, gdy wynik równa się jeden to do zbioru 'T' dodajemy 'i'.
 2) W kolejnym korku pomniejszamy 'r' o połowę.
 """
