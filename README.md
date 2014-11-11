@@ -19,9 +19,9 @@ Algorytm, Pojawił się w terminie:
 5_perm_unrank.py
 6_liczba_bella.py
 7_gen_podzial.py 1
-8_generuj_rgf.py 2
-8_podzial_rgf.py 2
-8_rgf_podzial.py 2
+8_generuj_rgf.py 1, 2
+8_podzial_rgf.py 1, 2
+8_rgf_podzial.py 1, 2
 9_podzial_gwiazdka.py
 9_podzial_sprzezony.py
 9_podzial_standardowe.py 1
@@ -56,6 +56,9 @@ generujący kolejny podział i wyznaczający inny element aktywny.
 (2)
 10_inv_pruffer.py
 10_puffer.py
+8_generuj_rgf.py
+8_podzial_rgf.py
+8_rgf_podzial.py
 
 (3)
 4_k_elementowe_podzbior_rank.py
