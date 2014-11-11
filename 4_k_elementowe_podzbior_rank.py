@@ -7,7 +7,6 @@ n_po_k(n - j, k - i).
 """
 
 
-
 def silnia(n):
     return n * silnia(n-1) if n > 1 else 1
 
