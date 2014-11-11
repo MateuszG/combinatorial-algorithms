@@ -1,11 +1,11 @@
 """
 Algorytm 8
 1) T[1] = 0
-2) Iterujemy od 1 do 'k'. Jeśli element leżący na lewo od t[i] - 1 jest
-mniejszy lub równy t[i - 1] + 1, to iteruj 'j' od wartości T[i - 1] + 1 do
-wartości T[i] - 1.
-3) Następne zwiększ range o wartość n_po_k
+2) (i) Szukamy T[i-1] + 1, które jest mniejsze lub równe T[i] - 1.
+3) (j) Następnie od wartości T[i-1] + 1 do T[i] - 1, zwiększamy rangę o wartość
+n_po_k(n - j, k - i).
 """
+
 
 
 def silnia(n):

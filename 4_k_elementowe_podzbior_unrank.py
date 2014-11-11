@@ -1,9 +1,9 @@
 """
 Algorytm 9
 1) x = 1
-2) Iterując od 1 do k, zmniejsz wartość 'r' o wartość n_po_k, zwiększ x o 1,
-dopóki n_po_k jest mniejsze od 'r'.
-3) Następnie T[i] przypisz x, zwiększ x o 1.
+2) Dopóki n_po_k(n - x, k - i) jest mniejsze od 'r', to zmniejszaj wartość 'r'
+o wartość n_po_k(n - x, k - i) i zwiększ x o 1.
+3) Później T[i] przypisz x, zwiększ x o 1.
 """
 
 
