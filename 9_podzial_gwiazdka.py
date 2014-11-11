@@ -1,17 +1,7 @@
 """
-Algorytm 22 - Podzial gwiazdka - Generowanie podziałów liczb n na k składników.
-Trzy podzialy liczby 7, w których największym składnikiem jest 4:
-4+1+1+1
-4+2+1
-4+3
-Odpowiadającymi im podziałami sprzężonymi są:
-4+1+1+1
-3+2+1+1
-2+2+2+1
-
-Algorytm:
+Algorytm 22 - Generowanie podziałów liczb n na k składników.
 1) Jeśli 'n' jest równe 0 to wywołaj podzial_sprzezony i wypisz wynik.
-2) Jeśli nie, to przypisz a[m + 1] wartośc 'i' z przedziału 1 do min(B, n).
+2) Jeśli nie, to przypisz a[m + 1] wartość 'i' z przedziału 1 do min(B, n).
 3) Wywołaj rekruncyjnie podział* i przejdź do (1).
 """
 
@@ -71,3 +61,14 @@ podzial_gwiazdka(7, 7, 0)
 # [5, 2] [2, 2, 1, 1, 1]
 # [6, 1] [2, 1, 1, 1, 1, 1]
 # [7] [1, 1, 1, 1, 1, 1, 1]
+
+"""
+Trzy podzialy liczby 7, w których największym składnikiem jest 4:
+4+1+1+1
+4+2+1
+4+3
+Odpowiadającymi im podziałami sprzężonymi są:
+4+1+1+1
+3+2+1+1
+2+2+2+1
+"""

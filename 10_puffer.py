@@ -1,10 +1,5 @@
 """
-Algorytm 23
-Algorytm wyznaczający kod Prufera dla danego drzewa 'T' na zbiorze wierzchołków
-opisanym jako {1, 2, ..., n}, który wygeneruje kod Prüfera stanowiący n-2
-wyrazowy ciąg liczb ze zbioru {1,2, ..., n}.
-
-Algorytm*:
+Algorytm 23 - Wyznaczanie kodu Prufera dla danego drzewa 'T'
 1. Stwórz tablice stopni wierzchołków d[1, ..., n].
 2. Wyznacz największy wierchołek 'x' stopnia 1.
 3. Znajdź wierzchołek 'y' z którym połączony jest wierzchołek 'x'.
@@ -59,3 +54,9 @@ print (pruffer(
     )
 )
 # [2, 6, 2, 6, 5]
+
+"""
+Algorytm wyznaczający kod Prufera dla danego drzewa 'T' na zbiorze wierzchołków
+opisanym jako {1, 2, ..., n}, który wygeneruje kod Prüfera stanowiący n-2
+wyrazowy ciąg liczb ze zbioru {1,2, ..., n}.
+"""

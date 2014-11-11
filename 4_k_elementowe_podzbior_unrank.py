@@ -1,6 +1,5 @@
 """
 Algorytm 9
-Algorytm:
 1) x = 1
 2) Iterując od 1 do k, zmniejsz wartość 'r' o wartość n_po_k, zwiększ x o 1,
 dopóki n_po_k jest mniejsze od 'r'.

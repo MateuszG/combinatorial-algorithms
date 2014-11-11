@@ -1,16 +1,9 @@
 """
-Algorytm 1
-Generuj w porządku leksykograficznym wszystkie ciągi długości 'k' zbudowane
-z liczb od 1 do n.
-Pierwszym ciągiem jest (1, 1, . . . , 1) a ostatnim (n, n, . . . , n).
-Wektor X[1..k] zawiera ostatni wygenerowany ciąg.
-Inicjujemy wektor 'X' samymi jedynkami.
-
-Algorytm*:
-1) szukamy w tablicy 'X', poruszając się od końca (tj. od strony prawej do
+Algorytm 1 - Generowanie ciągów długości 'k' zbudowanych z liczb od 1 do n.
+1) Szukamy w tablicy 'X', poruszając się od końca (tj. od strony prawej do
 lewej) wyrazu stojącego najbardziej na prawo, który jest mniejszy od 'n'
-2) zwiększamy go o jeden
-3) wszystkie wyrazy na prawo od niego czynimy równe jeden
+2) Zwiększamy go o jeden
+3) Wszystkie wyrazy na prawo od niego czynimy równe jeden
 """
 
 
@@ -43,3 +36,11 @@ ciag_leks(3, 2)
 # [2, 1, 2]
 # [2, 2, 1]
 # [2, 2, 2]
+
+"""
+Generuj w porządku leksykograficznym wszystkie ciągi długości 'k' zbudowane
+z liczb od 1 do n.
+Pierwszym ciągiem jest (1, 1, . . . , 1) a ostatnim (n, n, . . . , n).
+Wektor X[1..k] zawiera ostatni wygenerowany ciąg.
+Inicjujemy wektor 'X' samymi jedynkami.
+"""

@@ -1,12 +1,5 @@
 """
-Algorytm 21
-Generowanie wszystkich standardowych podziałów liczby n na k składników.
-– a[1] , a[2] , . . . , a[m] są już wybranymi składnikami podziału
-– parametr b jest górnym ograniczeniem wartości następnego generowanego
-składnika
-– a[m+1] może przyjąc wartości od 1 do b
-
-Algorytm:
+Algorytm 21 - Generowanie standardowych podziałów liczby 'n' na 'k' składników.
 1) Jeśli 'n' jest równe 0 to wypisz 'a'.
 2) Jeśli nie, to przypisz a[m + 1] wartośc 'i' z przedziału 1 do min(b, n).
 3) Wywołaj rekruncyjnie podział i przejdź do (1).
@@ -29,7 +22,7 @@ def add(m):
         a.append(0)
 
 
-def podzial(n, b, m):
+def podzial_standardowy(n, b, m):
     if n == 0:
         print a
         remove()
@@ -37,9 +30,9 @@ def podzial(n, b, m):
         for i in range(1, min(b, n) + 1):
             add(m)
             a[m + 1] = i
-            podzial(n - i, i, m + 1)
+            podzial_standardowy(n - i, i, m + 1)
 
-podzial(6, 6, -1)
+podzial_standardowy(6, 6, -1)
 # [1, 1, 1, 1, 1, 1]
 # [2, 1, 1, 1, 1]
 # [2, 2, 1, 1]
@@ -51,3 +44,11 @@ podzial(6, 6, -1)
 # [4, 2]
 # [5, 1]
 # [6]
+
+"""
+Generowanie wszystkich standardowych podziałów liczby n na k składników.
+– a[1] , a[2] , . . . , a[m] są już wybranymi składnikami podziału
+– parametr b jest górnym ograniczeniem wartości następnego generowanego
+składnika
+– a[m+1] może przyjąc wartości od 1 do b
+"""

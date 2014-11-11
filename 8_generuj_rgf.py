@@ -1,7 +1,5 @@
 """
 Algorytm 18
-
-Algorytm*:
 1) Idea algorytmu polega na znalezieniu pierwszej pozycji z prawej
 strony tablicy f, dla której f[j] != F[j].
 2) Wówczas wartość elementu f[j] zostaje zwiększona o 1 a wszystkie elementy

@@ -1,21 +1,12 @@
 """
 Algorytm 4
-Algorytm wyznaczający następnik w kodzie Graya:
-– Rozpoczynamy od ciągu zlożonego z samych zer, który odpowiada zbiorowi
-pustemu
-– Dowolne dwa następujące po sobie podzbiory mają odleglość jeden, tzn. kolejny
-podzbiór otrzymujemy z poprzedniego przez usunięcie lub dodanie pojedynczego
-elementu (liczba elementów w kolejno generowanych podzbiorach będzie na
-przemian parzysta i nieparzysta)
-
-Algorytm*:
-1) Rozpoczynamy od pustego podzbioru
+1) Rozpoczynamy od pustego podzbioru U
 2) Jeżeli liczba elementów podzbioru 'T' jest parzysta, to bierzemy różnicę
 symetryczna podzbioru 'T' i jedoelementowego zbioru złożonego z największego
 elementu, tj 'n'.
-3) Gdy liczba elementów zbioru 'T' jest nieparzysta,
-to jednoelementowym zbiorem jest {j}, gdzie j jest największym elementem
-należącym do 'T' pomniejszonym o jeden.
+3) Gdy liczba elementów zbioru 'T' jest nieparzysta, to jednoelementowym
+zbiorem jest 'j' pomniejszone o 1, gdzie j jest największym elementem należącym
+do 'T'.
 """
 
 
@@ -55,3 +46,13 @@ for list_unrank in lists:
 # [1, 3]
 # [1]
 # None
+
+"""
+Algorytm wyznaczający następnik w kodzie Graya:
+– Rozpoczynamy od ciągu zlożonego z samych zer, który odpowiada zbiorowi
+pustemu
+– Dowolne dwa następujące po sobie podzbiory mają odleglość jeden, tzn. kolejny
+podzbiór otrzymujemy z poprzedniego przez usunięcie lub dodanie pojedynczego
+elementu (liczba elementów w kolejno generowanych podzbiorach będzie na
+przemian parzysta i nieparzysta)
+"""

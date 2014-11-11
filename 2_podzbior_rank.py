@@ -1,14 +1,7 @@
 """
 Algorytm 2
-Dla danego podzbioru T ⊆ S definiujemy wektor charakterystyczny
-Traktując charakterystyczne wektory jako binarną reprezentacje liczb
-całkowitych od 0 do 2**n − 1, rozpatrywane uporządkowanie leksykograficzne
-odpowiada zwyklemu uporządkowaniu liczb całkowitych. Pozycja podzbioru T jest
-liczba całkowitą, której binarna reprezentacja jest X(T).
-
-Algorytm:
-1) W przedziale od 1 do 'n' szukamy 'i', które znajduje się w zbiorze 'T'.
-2) Jeśli znaleziono ten element to zwiększamy wartość 'r' ze wzoru 2**(n-1).
+1) Szukamy 'i', które znajduje się w zbiorze 'T'.
+2) Jeśli znaleziono ten element to zwiększamy wartość 'r' ze wzoru 2**(n-i).
 """
 
 
@@ -44,3 +37,11 @@ for ciag in list_ciag:
 # 7 [5, 4, 3]
 # 8 [2]
 # 9 [5, 2]
+
+"""
+Dla danego podzbioru T ⊆ S definiujemy wektor charakterystyczny
+Traktując charakterystyczne wektory jako binarną reprezentacje liczb
+całkowitych od 0 do 2**n − 1, rozpatrywane uporządkowanie leksykograficzne
+odpowiada zwyklemu uporządkowaniu liczb całkowitych. Pozycja podzbioru T jest
+liczba całkowitą, której binarna reprezentacja jest X(T).
+"""

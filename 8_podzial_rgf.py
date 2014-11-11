@@ -1,9 +1,5 @@
 """
 Algorytm 16
-Procedura wyznaczająca z zadanego podzialu zbioru {1, 2, ..., n} na 'k' bloków
-{B[1] , ..., B[k]} odpowiadająca mu funkcje (f[1], ..., f[n]) RGF.
-
-Algorytm*:
 1) Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru bloku
 zawierającego ten element (drugi while).
 2) Następnie wszystkim składowym z indeksami równymi elementom należącym do
@@ -79,3 +75,8 @@ for val in values:
 # [1, 2, 3, 2] [[1], [2, 4], [3]]
 # [1, 2, 3, 3] [[1], [2], [3, 4]]
 # [1, 2, 3, 4] [[1], [2], [3], [4]]
+
+"""
+Procedura wyznaczająca z zadanego podzialu zbioru {1, 2, ..., n} na 'k' bloków
+{B[1] , ..., B[k]} odpowiadająca mu funkcje (f[1], ..., f[n]) RGF.
+"""

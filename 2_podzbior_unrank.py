@@ -1,13 +1,8 @@
 """
 Algorytm 3
-Dla zadanej liczby całkowitej r, gdzie 0 ≤ r ≤ 2**n − 1, wyznaczenie podzbioru
-T mającego pozycje r w uporządkowaniu leksykograficznym, polega na badaniu
-reszt kolejnych wartości r pomniejszanych w każdym kroku o połowę.
-
-Algorytm:
-1) W przedziale od 1 do 'n' sprawdzamy kolejne reszty wartości 'r', podzielnych
-przez 2, gdy wynik równa się jeden to do zbioru 'T' dodajemy 'i'.
-2) W kolejnym korku pomniejszamy 'r' o połowę.
+1) Sprawdzamy kolejne reszty wartości 'r', podzielnych przez 2, gdy wynik równa
+się 1 to do zbioru 'T' dodajemy element 'i'.
+2) W kolejnym kroku pomniejszamy 'r' o połowę.
 """
 
 
@@ -32,3 +27,9 @@ for rank in range(10):
 # [5, 4, 3]
 # [2]
 # [5, 2]
+
+"""
+Dla zadanej liczby całkowitej r, gdzie 0 ≤ r ≤ 2**n − 1, wyznaczenie podzbioru
+T mającego pozycje r w uporządkowaniu leksykograficznym, polega na badaniu
+reszt kolejnych wartości r pomniejszanych w każdym kroku o połowę.
+"""

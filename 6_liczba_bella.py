@@ -1,11 +1,8 @@
 """
 Algorytm 27
-Liczba Bella - wyznacza wszystkie możliwe podziały zbioru n-elementowego.
-
-Algorytm:
 1) Jeśli liczba jest mniejsza od 2 to wypisz 1.
 2) Jeśli nie to iteruj po 'k', od 1 do 'n' za każdym razem zwiększając sumę o
-wartość n_po_k razy wartość liczba_bella(k).
+wartość n_po_k(n - 1, k) razy wartość liczba_bella(k).
 """
 
 
@@ -37,3 +34,9 @@ for i in range(10):
 # 7 877
 # 8 4140
 # 9 21147
+
+"""
+Liczba Bella - wyznacza wszystkie możliwe podziały zbioru n-elementowego.
+(n - 1)
+(  k  )
+"""

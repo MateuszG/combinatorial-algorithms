@@ -1,9 +1,5 @@
 """
 Algorytm 17
-Procedura wyznaczająca z zadanej funkcji RGF(f[1] , . . . , f[n])
-odpowiadający jej podział zbioru {1, 2, . . . , n} na stosowna liczbe bloków.
-
-Algorytm*:
 1) Pierwszy 'for' wyznacza, na podstawie zadanej funkcji RGF, liczbe bloków w
 podziale odpowiadającym tej funkcji. Sprowadza się to do wyznaczenia
 największej składowej.
@@ -66,3 +62,8 @@ for val in values:
 # [1, 2, 3, 2] [[1], [2, 4], [3]]
 # [1, 2, 3, 3] [[1], [2], [3, 4]]
 # [1, 2, 3, 4] [[1], [2], [3], [4]]
+
+"""
+Procedura wyznaczająca z zadanej funkcji RGF(f[1] , . . . , f[n])
+odpowiadający jej podział zbioru {1, 2, . . . , n} na stosowna liczbe bloków.
+"""

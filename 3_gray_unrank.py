@@ -1,15 +1,10 @@
 """
 Algorytm 6
-Niech c odpowiada b[i+1] a b odpowiada b[i].
-Algorytm wyznacza sukcesywnie b[n−1] , . . . , b[0], które są bitami binarnej
-reprezentacji liczby r.
-
-Algorytm:
 1) Inicjalizujemy listę 'T' i wartość c = 0
 2) Itermujemy od 'n-1' do 0 za każdym razem przypisując do 'b' wynik dzielenia
-'r' przez 2**i. Jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1],
-a wartość 'r' zmniejszamy o b2**i.
-
+'r' przez 2**i.
+3) Jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1], a wartość 'r'
+zmniejszamy o b*(2**i).
 """
 
 
@@ -36,3 +31,9 @@ for rank in range(8):
 # [1]
 # [1, 2]
 # [1, 2, 3]
+
+"""
+Niech c odpowiada b[i+1] a b odpowiada b[i].
+Algorytm wyznacza sukcesywnie b[n−1] , . . . , b[0], które są bitami binarnej
+reprezentacji liczby r.
+"""
