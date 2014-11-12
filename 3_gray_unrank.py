@@ -1,10 +1,10 @@
 """
 Algorytm 6
-1) Inicjalizujemy listę 'T' i wartość c = 0
+1) Definiujemy listę 'T' i wartość c = 0
 2) Iterujemy 'i' (n-1...0) za każdym razem przypisujemy do 'b' wynik dzielenia
 div(r, 2**i).
-3) Jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1], a wartość 'r'
-zmniejszamy o b*(2**i).
+3) Jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1]
+4) 'c' przypisujemy 'b', a 'r'zmniejszamy o b*(2**i).
 """
 
 
@@ -13,9 +13,6 @@ def gray_unrank(n, r):
     c = 0
     for i in reversed(range(n)):
         b = r // (2 ** i)  # całkowite dzielenie - div
-        if r == 1:
-            import ipdb; ipdb.set_trace()
-
         if b != c:
             T = T + [n - i]
         c = b
