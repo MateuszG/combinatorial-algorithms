@@ -1,6 +1,6 @@
 """
 Algorytm 2
-1) Szukamy 'i', które znajduje się w zbiorze 'T'.
+1) Szukamy 'i' (1...n), które znajduje się w zbiorze 'T'.
 2) Jeśli znaleziono ten element to zwiększamy wartość 'r' ze wzoru 2**(n-i).
 """
 

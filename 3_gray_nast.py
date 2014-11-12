@@ -2,7 +2,7 @@
 Algorytm 4
 1) Rozpoczynamy od pustego podzbioru U
 2) Jeżeli liczba elementów podzbioru 'T' jest parzysta, to bierzemy różnicę
-symetryczna podzbioru 'T' i jedoelementowego zbioru złożonego z największego
+symetryczna podzbioru 'T' i jednoelementowego zbioru złożonego z największego
 elementu, tj 'n'.
 3) Gdy liczba elementów zbioru 'T' jest nieparzysta, to jednoelementowym
 zbiorem jest 'j' pomniejszone o 1, gdzie j jest największym elementem należącym

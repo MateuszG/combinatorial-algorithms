@@ -2,8 +2,8 @@
 Algorytm 7
 1) Znajdz pierwsza pozycje T[i] od prawej strony nie zawierającą największego
 możliwego elementu.
-2) Zwiększ T[i] o 1
-3) Przypisz elementom leżącym na prawo od T[i] kolejno elementy
+2) Zwiększ T[i] o 1.
+3) Przypisz elementom leżącym na prawo od T[i] kolejno elementy:
 (T[i] + 1) + 1, (T[i] + 1) + 2, (T[i] + 1) + 3, . . . (T[i] + 1) + k − i
 """
 

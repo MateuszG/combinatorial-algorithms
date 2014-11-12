@@ -1,9 +1,10 @@
 """
 Algorytm 8
 1) T[1] = 0
-2) (i) Szukamy T[i-1] + 1, które jest mniejsze lub równe T[i] - 1.
-3) (j) Następnie od wartości T[i-1] + 1 do T[i] - 1, zwiększamy rangę o wartość
-n_po_k(n - j, k - i).
+2) Szukamy 'i' (1...k) dla którego T[i-1] + 1, jest mniejsze lub równe
+T[i] - 1.
+3) Następnie jako 'j', od wartości T[i-1] + 1 do T[i] - 1, zwiększamy rangę o
+wartość n_po_k(n - j, k - i).
 """
 
 

@@ -1,7 +1,7 @@
 """
 Algorytm 3
 1) Sprawdzamy kolejne reszty wartości 'r', podzielnych przez 2, gdy wynik równa
-się 1 to do zbioru 'T' dodajemy element 'i'.
+się 1 to do zbioru 'T' dodajemy element 'i' (n...1).
 2) W kolejnym kroku pomniejszamy 'r' o połowę.
 """
 

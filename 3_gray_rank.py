@@ -1,8 +1,8 @@
 """
 Algorytm 5
-1) Inicjalizujemy b = 0
-2) Szukamy wartości n - i znajduje się w zbiorze 'T', gdy znajdziemy to
-aktualizujemy wartość 'b' przypisując jej wartość 1 - 'b'.
+1) Definiujemy b = 0
+2) Szukamy 'i' (n-1...0) o wartości n - i znajdującej się w zbiorze 'T', gdy
+znajdziemy to aktualizujemy wartość 'b' przypisując jej wartość 1 - 'b'.
 3) Jeżeli b = 1, to zwiększamy 'r' o wartość 2**i.
 """
 
