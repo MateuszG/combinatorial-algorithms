@@ -3,8 +3,7 @@ Algorytm 7
 1) 'U' przypisz 'T'.
 2) Znajdź pierwszą pozycje T[i] od prawej strony nie zawierającą największego
 możliwego elementu.
-3) Zwiększ T[i] o 1,
-4) Przypisz pozycją U[j] z indeksami (i...k) leżącym na prawo od T[i] wartość
+3) Przypisz pozycją U[j] z indeksami (i...k) leżącym na prawo od T[i] wartość
 (T[i] + 1) + (j − i).
 """
 
