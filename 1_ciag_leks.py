@@ -1,9 +1,9 @@
 """
 Algorytm 1 - Generowanie ciągów długości 'k' zbudowanych z liczb od 1 do n.
 1) Szukamy w tablicy 'X', poruszając się od końca (tj. od strony prawej do
-lewej) wyrazu stojącego najbardziej na prawo, który jest mniejszy od 'n'
-2) Zwiększamy go o jeden
-3) Wszystkie wyrazy na prawo od niego czynimy równe jeden
+lewej) wyrazu stojącego najbardziej na prawo, który jest mniejszy od 'n'.
+2) Zwiększamy go o jeden.
+3) Wszystkie wyrazy na prawo od niego czynimy równe jeden.
 """
 
 
