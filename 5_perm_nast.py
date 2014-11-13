@@ -23,7 +23,7 @@ def perm_nastepnik(n, T):
         j = j - 1
     T[i], T[j] = T[j], T[i]
 
-    p = [1 for _ in range(n + 2)]
+    p = [0 for _ in range(n + 2)]
     for h in range(i + 1, n + 1):
         p[h] = T[h]
     for h in range(i + 1, n + 1):
