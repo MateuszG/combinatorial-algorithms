@@ -1,10 +1,11 @@
 """
 Algorytm 9
 1) x = 1
-2) Jako 'i' (1...k) sprawdzaj czy n_po_k(n - x, k - i) jest mniejsze lub równe
-od 'r', jeśli tak zmniejsz wartość 'r' o wartość n_po_k(n - x, k - i) i
-zwiększ x o 1.
-3) Później T[i] przypisz x, zwiększ x o 1.
+2) Iterujemy 'i' (1...k) sprawdzaj czy n_po_k(n - x, k - i) jest mniejsze lub
+równe od 'r'.
+3) Jeśli tak, zmniejsz wartość 'r' o wartość n_po_k(n - x, k - i)
+oraz zwiększ x o 1.
+4) Następnie T[i] przypisz x, zwiększ x o 1.
 """
 
 
@@ -15,7 +16,7 @@ def silnia(n):
 def n_po_k(n, k):
     po_n = silnia(n)
     po_k = silnia(k) * silnia(n - k)
-    wynik = po_n / po_k
+    wynik = po_n // po_k
     return wynik
 
 
@@ -32,9 +33,9 @@ def k_elementowe_podzbiory_unrank(r, k, n):
     return T[1:]
 
 
-for rank in range(10):
+# for rank in range(10):
     # empty list for zero index
-    print (k_elementowe_podzbiory_unrank(rank, 3, 5))
+print (k_elementowe_podzbiory_unrank(1, 3, 5))
 # [1, 2, 3]
 # [1, 2, 4]
 # [1, 2, 5]
@@ -45,3 +46,7 @@ for rank in range(10):
 # [2, 3, 5]
 # [2, 4, 5]
 # [3, 4, 5]
+"""
+(n - x)
+(k - i)
+"""
