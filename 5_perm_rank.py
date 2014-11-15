@@ -1,9 +1,9 @@
 """
 Algorytm 11
-1) Dla każdego j, zwiększamy rangę 'r' o wartość T[j] pomniejszoną o jeden i
-pomnożoną przez silnie(n - j).
-2) Następnie szukamy T[i] większego od T[j], jeśli znajdziemy to zmniejszamy
-wartość T[i] o 1.
+1) Dla każdego j (1...n), zwiększamy rangę 'r' o wartość T[j] pomniejszoną o
+1 i pomnożoną przez silnie(n - j).
+2) Następnie szukamy T[i] (j + 1...n) większego od T[j], jeśli znajdziemy to
+zmniejszamy wartość T[i] o 1.
 """
 
 

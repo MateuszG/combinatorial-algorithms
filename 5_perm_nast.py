@@ -1,10 +1,10 @@
 """
 Algorytm 10
 1) Przypisz 'i' wartość n - 1.
-2) Dopóki 'i' dla T[i + 1] jest mniejsze od T[i], to zmniejsz 'i' o 1.
+2) Dopóki T[i + 1] jest mniejsze od T[i], to zmniejsz 'i' o 1.
 3) Jeżeli i == 0, to brak następnika.
 4) Jeżeli nie, to przypisz 'j' wartośc 'n'.
-5) Dopóki 'j' dla T[j] jest mniejsze od T[i], to zmniejsz 'j' o 1.
+5) Dopóki T[j] jest mniejsze od T[i], to zmniejsz 'j' o 1.
 6) Zamień T[i] z T[j].
 7) Odwróć podlistę przypisując p[h] wartość T[h] (i + 1...n), następnie
 przypisz T[h] wartość p[n + i + 1 - h] (i + 1...n), wypisz T.
