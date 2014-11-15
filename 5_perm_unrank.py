@@ -1,11 +1,12 @@
 """
 Algorytm 12
-1) Iterujemy po 'j' za każdym razem przypisując do 'd' wartość
-'r' z reszty dzielenia przez silnia(j + 1), dzieloną przez silnię z 'j'.
-2) 'r' zmniejsz o 'd' razy silnia z 'j'.
-3) T[n - j] przypisz d + 1.
-4) Szukaj takiego T[i], które będzie większe od 'd', jeśli znajdziesz to T[i]
-zwiększ o jeden.
+1) T[n] = 1
+2) Iterujemy 'j' (1...n-1) za każdym razem przypisując do 'd' wartość
+mod(r, (j + 1)!), dzieloną całkowicie przez silnię z 'j'.
+3) 'r' zmniejsz o wartość 'd' razy (j)!.
+4) T[n - j] przypisz d + 1.
+5) Szukaj takiego T[i] (n - j + 1...n), które będzie większe od 'd', jeśli
+znajdziesz to T[i] zwiększ o 1.
 """
 
 
