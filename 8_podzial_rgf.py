@@ -1,11 +1,12 @@
 """
 Algorytm 16
-1) Dla danego elementu 'j' (zaczynamy od j = 1) szukamy numeru bloku
-zawierającego ten element (drugi while).
-2) Następnie wszystkim składowym z indeksami równymi elementom należącym do
-tego bloku nadajemy numer bloku (instrukcja for each).
-3) Czyność tę powtarzamy 'k' razy biorąc pod uwage kolejny element 'j' zbioru,
-dla którego składowa f[j] jest jeszcze równa zero.
+1) Tworzymy pustą listę 'F' wypełnioną 0-ami (1...n) i definiujemy j = 1.
+2) Jeśli F[j] nie jest równe 0, to zwiększ 'j' o 1.
+3) 'h' przypisz 1.
+4) Szukamy bloku B[h], który zawiera element 'j', za każdym razem gdy go nie
+znajdziemy to zwiększamy wartość 'h' o 1,
+5) Dla każdego 'g' ze zbioru B[h], przypisujemy F[g] wartość 'h'.
+6) Kroki (2-5) powtarzamy 'k' razy.
 """
 
 
@@ -18,12 +19,10 @@ def not_in(j, h, B):
     return b
 
 
-def podzial_rgf(n, B):
+def podzial_rgf(n, k, B):
     F = [0 for _ in range(n + 1)]
     j = 1
-    k = len(B)
     for i in range(1, k):
-
         while F[j] != 0:
             j = j + 1
         h = 1
@@ -58,7 +57,7 @@ for val in values:
     val.reverse()
     val.append([])
     val.reverse()
-    print (podzial_rgf(4, val), end=' ')
+    print (podzial_rgf(4, len(val), val), end=' ')
     print (val[1:])
 # [1, 1, 1, 1] [[1, 2, 3, 4]]
 # [1, 1, 1, 2] [[1, 2, 3], [4]]
