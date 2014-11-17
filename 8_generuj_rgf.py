@@ -12,7 +12,7 @@ f[j] == F[j], to wszystkie elementy tablicy F leżące na prawo przyjmują
 wartość F[j] + 1, a w przeciwnym razie przyjmują one wartość F[j].
 7) Proces (3-6) ten kontynujemy, dopóki nie będzie spełniony warunek
 f[j] == F[j] dla wszystkich 'j', czyli 'j' będzie mniejsze lub równe 1, gdy to
-nastąpi to koniec = True
+nastąpi to koniec = True.
 """
 
 
