@@ -5,14 +5,12 @@ Algorytm 18
 3) Dopóki 'koniec' nie jest True, to wypisuj tablicę 'f'.
 4) Przypisz 'j' wartośc 'n', jeśli f[j] jest równe F[j] to zmniejszaj 'j' o 1.
 5) Gdy wartość 'j' jest większa od 1 to wartość elementu f[j] zostaje
-zwiększona o 1, a wszystkie elementy leżące na prawo od przypisujemy 1,
+zwiększona o 1, a wszystkie elementy leżące na prawo przypisujemy 1,
 uaktualniając jednocześnie tablice F.
 6) Uaktualnienie to polega na tym, że jeżeli nowa wartość f[j] daje
 f[j] == F[j], to wszystkie elementy tablicy F leżące na prawo przyjmują
 wartość F[j] + 1, a w przeciwnym razie przyjmują one wartość F[j].
-7) Proces (3-6) ten kontynujemy, dopóki nie będzie spełniony warunek
-f[j] == F[j] dla wszystkich 'j', czyli 'j' będzie mniejsze lub równe 1, gdy to
-nastąpi to koniec = True.
+7) Proces (3-6) ten kończymy gdy koniec = True ('j' jest mniejsze lub równe 1).
 """
 
 
