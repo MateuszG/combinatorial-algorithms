@@ -10,7 +10,7 @@ uaktualniając jednocześnie tablice F.
 6) Uaktualnienie to polega na tym, że jeżeli nowa wartość f[j] daje
 f[j] == F[j], to wszystkie elementy tablicy F leżące na prawo przyjmują
 wartość F[j] + 1, a w przeciwnym razie przyjmują one wartość F[j].
-7) Proces (3-6) ten kończymy gdy koniec = True ('j' jest mniejsze lub równe 1).
+7) Proces (3-6) kończymy gdy koniec = True ('j' jest mniejsze lub równe 1).
 """
 
 
