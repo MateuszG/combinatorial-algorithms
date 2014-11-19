@@ -1,8 +1,8 @@
 """
 Algorytm 20 - Dla podziału wyznacza podział do niego sprzężony.
-1) Zainicjalizuj listę 'b' długości a[1] samymi jedynkami.
-2) Iteruj 'j' po zadanej liście 'a' od 2 do liczby ilości elementów na liście.
-3) Dla każdego elementu z listy 'a' iteruj jako 'i', od 1 do wartości a[j].
+1) Zdefiniuj listę 'b' długości a[1] z wartościami 1.
+2) Iteruj 'j' od 2 do liczby ilości elementów na liście 'a'.
+3) Iteruj 'i', od 1 do wartości a[j].
 4) Zwiększ wartość b[i] o 1.
 """
 
