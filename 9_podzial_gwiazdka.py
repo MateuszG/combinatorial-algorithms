@@ -1,7 +1,7 @@
 """
 Algorytm 22 - Generowanie podziałów liczb n na k składników.
 1) Jeśli 'n' jest równe 0 to wywołaj podzial_sprzezony i wypisz wynik.
-2) Jeśli nie, to przypisz a[m + 1] wartość 'i' z przedziału 1 do min(B, n).
+2) Jeśli nie, to przypisz a[m + 1] wartość 'i' (1...min(b, n)).
 3) Wywołaj rekruncyjnie podział* i przejdź do (1).
 """
 
