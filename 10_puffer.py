@@ -4,7 +4,7 @@ Algorytm 23 - Wyznaczanie kodu Prufera dla danego drzewa 'T'
 2) Niech 'x' będzie wierzchołkiem połączonym z 'y'.
 3) Zapisać 'y' do listy 'L' oraz usunąć krawędź [x, y] z listy 'E'.
 4) Jeżeli w drzewie pozostała więcej niż 1 krawędź, to przejdź do kroku (1), w
-przeciwnym razie zakończyć algorytm.
+przeciwnym razie zakończy algorytm.
 """
 
 
