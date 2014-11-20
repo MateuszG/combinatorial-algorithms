@@ -1,8 +1,8 @@
 """
 Algorytm 22 - Generowanie podziałów liczb n na k składników.
-1) Jeśli 'n' jest równe 0 to wywołaj podzial_sprzezony i wypisz wynik.
+1) Jeśli 'n' jest równe 0 to wywołaj podzial_sprzezony(a) i wypisz wynik.
 2) Jeśli nie, to przypisz a[m + 1] wartość 'i' (1...min(b, n)).
-3) Wywołaj rekruncyjnie podział* i przejdź do (1).
+3) Wywołaj rekruncyjnie podzial_gwiazdka(n - i, i, m + 1) i przejdź do (1).
 """
 
 
@@ -30,7 +30,6 @@ def podzial_sprzezony(a):
         for i in range(1, a[j] + 1):
             b[i] = b[i] + 1
     return b[1:]
-
 
 a = []
 
