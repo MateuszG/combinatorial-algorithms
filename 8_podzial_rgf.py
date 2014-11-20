@@ -4,7 +4,7 @@ Algorytm 16
 2) Jeśli F[j] nie jest równe 0, to zwiększ 'j' o 1.
 3) 'h' przypisz 1.
 4) Szukamy bloku B[h], który zawiera element 'j', za każdym razem gdy go nie
-znajdziemy to zwiększamy wartość 'h' o 1,
+znajdziemy to zwiększamy wartość 'h' o 1.
 5) Dla każdego 'g' ze zbioru B[h], przypisujemy F[g] wartość 'h'.
 6) Kroki (2-5) powtarzamy 'k' razy.
 """
