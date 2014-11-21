@@ -1,13 +1,13 @@
 """
 Algorytm 25
 1) Definiujemy p = 1
-2) Iterujemy 'i' (1...n) za każdym razem zwiększając 'r' o wartość p*(L[i] - 1).
-3) 'p' przypisz p * n
-4) Powtarzaj kroki (2-3) łącznie n-2 razy.
+2) Iterujemy 'i' (n-2...1) za każdym razem zwiększając 'r' o wartość
+p*(L[i] - 1).
+3) W pętli, 'p' przypisz p * n
 """
 
 
-def ranga_pruffera(L, n):
+def pruffer_rank(L, n):
     r = 0
     p = 1
 
@@ -18,5 +18,5 @@ def ranga_pruffera(L, n):
     return r
 
 # empty list at zero index
-print (ranga_pruffera([[]] + [2, 6, 2, 6, 5], 7))
+print (pruffer_rank([[]] + [2, 6, 2, 6, 5], 7))
 # 4204

@@ -1,10 +1,8 @@
 """
 Algorytm 26
-1) Tworzymy liste 'L'.
-2) Poruszając się od końca, przypisujemy L[i], wartość mod(r, n) + 1.
-3) Zmniejszamy wartość rangi o L[i] + 1.
-4) Rangę następnie dzielimy przez 'n'.
-5) Powtarzaj kroki (2-4) łącznie n-2 razy.
+1) Tworzymy liste 'L' wpełnioną 0 (1...n-2).
+2) Iterujemy 'i' (n-2...1) przypisujemy L[i], wartość mod(r, n) + 1.
+3) W pętli, zmniejszamy wartość rangi o L[i] + 1 i dzielimy rangę przez 'n'.
 """
 
 
