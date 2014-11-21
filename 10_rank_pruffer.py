@@ -1,8 +1,7 @@
 """
 Algorytm 25
-1) Inicjujemy p = 1
-2) Iterujemy po liście 'L', za każdym razem zwiększając 'r' o wartość
-p*(L[i] - 1).
+1) Definiujemy p = 1
+2) Iterujemy 'i' (1...n) za każdym razem zwiększając 'r' o wartość p*(L[i] - 1).
 3) 'p' przypisz p * n
 4) Powtarzaj kroki (2-3) łącznie n-2 razy.
 """
