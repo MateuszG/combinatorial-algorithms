@@ -61,18 +61,18 @@ TERMINY:
 
 4_k_elementowe_podzbior_unrank.py
 
-1) Omówić algorytm generujący podziały zbioru (1, 2, ... 9) na 5 elementów
-k = 5 dla rangi 119.
+  1) Omówić algorytm generujący podziały zbioru (1, 2, ... 9) na 5 elementów
+  k = 5 dla rangi 119.
 
 5_perm_rank.py
 
-2) Omówić algorytm wyznaczający rangę permutacji dla zbioru {3, 1, 4, 5, 8}.
+  2) Omówić algorytm wyznaczający rangę permutacji dla zbioru {3, 1, 4, 5, 8}.
 
 7_gen_podzial.py
 
-3) Dany jest zbiór (1, 2, ... 10) podzielony jest na {1, 3} {2, 4, 8} {6, 9}
-{8, 10} elementem aktywnym jest 4 i porusza się w prawo. Omów algorytm
-generujący kolejny podział i wyznaczający inny element aktywny.
+  3) Dany jest zbiór (1, 2, ... 10) podzielony jest na {1, 3} {2, 4, 8} {6, 9}
+  {8, 10} elementem aktywnym jest 4 i porusza się w prawo. Omów algorytm
+  generujący kolejny podział i wyznaczający inny element aktywny.
 
 
 8_generuj_rgf.py
@@ -81,12 +81,12 @@ generujący kolejny podział i wyznaczający inny element aktywny.
 
 8_rgf_podzial.py
 
-4) Podaj definicję funkcji wzrostu i wyznacz kolejny podział zbioru
-{1, 2, 3, 4}: kolejny podział {1, 4} {2, 3}.
+  4) Podaj definicję funkcji wzrostu i wyznacz kolejny podział zbioru
+  {1, 2, 3, 4}: kolejny podział {1, 4} {2, 3}.
 
 
 9_podzial_standardowe.py
-5) n = 8 omów algorytm wyznaczający podział tej liczby na 5 składników.
+  5) n = 8 omów algorytm wyznaczający podział tej liczby na 5 składników.
 
 - 2
 
