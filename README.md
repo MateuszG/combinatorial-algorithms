@@ -55,8 +55,8 @@ Algorytm | Pojawił się w terminie:
 10_unrank_pruffer.py | 3
 
 
-
-(1)
+TERMINY:
+1)
 
 4_k_elementowe_podzbior_unrank.py
 
@@ -87,7 +87,7 @@ generujący kolejny podział i wyznaczający inny element aktywny.
 9_podzial_standardowe.py
 5. n = 8 omów algorytm wyznaczający podział tej liczby na 5 składników.
 
-(2)
+2)
 
 10_inv_pruffer.py
 
@@ -100,7 +100,7 @@ generujący kolejny podział i wyznaczający inny element aktywny.
 8_rgf_podzial.py
 
 
-(3)
+3)
 
 4_k_elementowe_podzbior_rank.py
 
