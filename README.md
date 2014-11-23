@@ -86,6 +86,7 @@ TERMINY:
 
 
 9_podzial_standardowe.py
+
   5) n = 8 omów algorytm wyznaczający podział tej liczby na 5 składników.
 
 - 2
