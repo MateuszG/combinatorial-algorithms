@@ -1,11 +1,11 @@
 """
 Algorytm 15 - Generowanie podziałów z elementem aktywnym
-1) Zdefiniuj tablice boolowska określającą kierunek poruszania się danego
-elementu.
+1) Zdefiniuj tablice boolowska PR z wartościami 'true', określa ona kierunek
+poruszania się danego elementu. Początkowo mamy jedno blokowy podział (1..n).
 2) Przenieś element aktywny do sąsiedniego bloku:
-- następnego, jeżeli 'j' porusza się w prawo, w tym przypadku może powstać nowy
+- następnego, jeżeli PR[j] porusza się w prawo, w tym przypadku może powstać nowy
 blok.
-- poprzedniego jeżeli 'j' porusza się w lewo.
+- poprzedniego jeżeli PR[j] porusza się w lewo.
 3) Wyznacz element aktwyny w nowym podziale.
 – Zawsze zaczynamy analizę od elementu największego
 – Dany element jest aktywny tylko wtedy, gdy wszystkie większe od niego

@@ -2,7 +2,7 @@
 Algorytm 27
 1) Jeśli 'n' jest mniejsze od 2, to wypisz 1.
 2) Jeśli nie, to zdefinuj sumę i przypisz 0.
-3) Iteruj 'k' (0...n) za każdym razem zwiększając sumę o wartość
+3) Iteruj 'k' (0...n-1) za każdym razem zwiększając sumę o wartość
 n_po_k(n - 1, k) razy wartość wyniku z liczba_bella(k).
 """
 
