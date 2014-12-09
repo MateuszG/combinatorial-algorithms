@@ -6,7 +6,7 @@ Algorytm 24 - Rekonstrukcja drzewa z kodu Prufera
 4) Iterujemy 'j' (1...n-1) zwiększając wartośc d[L[j]] o 1.
 5) Iterujemy 'i' (1...n) przypisując 'x' wartość 'n'.
 6) W pętli, dopóki d[x] != 1 to zmniejsz 'x' o 1.
-7) W pętli, pod 'y' podstaw pierwszy element aktualnego kodu pruffera L[i].
+7) W pętli, pod 'y' podstaw element L[i] kodu pruffera.
 Zmniejsz o 1 stopnie wierzchołków d[x] i d[y] i dodaj do zbioru krawędzi 'E'
 krawędź [x, y].
 """
