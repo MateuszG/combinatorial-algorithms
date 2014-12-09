@@ -18,7 +18,7 @@ def inv_pruffer(n, L):
     d = [[]] + [1 for i in range(n)]
     E = []
 
-    for j in range(1, n - 1):
+    for j in range(1, n):
         d[L[j]] += 1
 
     for i in range(1, n):
