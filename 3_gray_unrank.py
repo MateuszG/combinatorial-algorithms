@@ -3,8 +3,8 @@ Algorytm 6
 1) Definiujemy listę 'T' i wartość c = 0
 2) Iterujemy 'i' (n-1...0) za każdym razem przypisujemy do 'b' wynik dzielenia
 div(r, 2**i).
-3) Jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1]
-4) 'c' przypisujemy 'b', a 'r'zmniejszamy o b*(2**i).
+3) W pętli, jeśli b != c to przypisujemy do zbioru 'T' wartość [n - 1]
+4) W pętli, 'c' przypisujemy 'b', a 'r'zmniejszamy o b*(2**i).
 """
 
 
